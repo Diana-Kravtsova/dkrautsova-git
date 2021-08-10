@@ -22,16 +22,15 @@ Tasks:
 11.	On branch *Section6* squash all 4 commits and set new commit message as "Interactive Rebase commit 1-4";
 12. On branch *Section6* split the latest commit so changes to *Section6/iRebase.txt* and *Section6/iTestFile.txt* files are written to different commits, use new meaningful commit messages.
 13. On branch *Section6* squash 2 latest commits and set new commit message as "Interactive Rebase commit 1-4 Final";
-14. Get this file (Topic6/Task8.md from branch *Tasks*) included to latest commit of branch *Section6* using amend option;
-15. Push commit to corresponding server branch for a review;
+14. Get this file (Topic6/Task8.md from branch *Tasks*) to branch *Section6* to directory *Section6*;
+15. In directory *Section6* run command *history >> history8.txt* and stage changes;
+16. Include these changes into new commit with description "Task#8 Details" (Check README.md file for instructions);
+17. Push changes to corresponding server branch for a review;
+18. Create a merge request to apply required changes to *development* branch;
 
-Final Steps - merge all to master branch:
+Final Steps - merge all to *master* branch:
 
-16. Once reviewed by Tutor, merge all the changes to branch *master* (Check README.md file for instructions);
-17. Change to branch *master* if not yet on it;
-18. In directory *Section6* run command *history >> history8.txt* and stage changes;
-19.	Include these changes into previous commit (Check README.md file for instructions);
-20.	Push branch *master* changes to server for review;
-21. Once reviewed by Tutor, task is completed.
+19. Once reviewed by Tutor, create a merge request to apply required changes from *development* to *master* branch;
+20. Once reviewed by Tutor, task is completed.
 
-#### Once done, you can follow up on next Topic/Task assignment.
+#### Once all the steps are done, you can follow up on next Topic/Task assignment.

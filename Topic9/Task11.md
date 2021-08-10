@@ -6,7 +6,7 @@
 
 Preparation steps:
 
-1.  Create and go to branch *Section9* on basis of branch *master* on server and pull changes to local;
+1.  Create a new feature branch *Section9* on basis of branch *development* and switch to it;
 2.  On branch *Section9* create a new file *Section9/alpha.txt* with text 'Alpha' in it and commit changes;			(0)
 3.  Create and go to local branch *s9feature* on basis of branch *Section9*.
 4.  Update file *Section9/alpha.txt* with text 'Non-Alpha' and commit changes.										(1)
@@ -22,19 +22,18 @@ Tasks:
 11. Get back to branch *Section9* and list out stashes specifically from *s9feature* branch.
 12. Update file *Section9/alpha.txt* with text 'Full-Alpha' and commit changes.
 13. Get back to branch *s9feature*, apply stash and commit changes.
-14. Cherry-pick latest commit of branch *s9feature* to branch *Section 9*. Answer the question:
+14. Cherry-pick latest commit of branch *s9feature* to branch *Section9*. Answer the question:
 	*What is the differense in using RESET / REVERT / CHECKOUT in redoing things?*
-	On branch *Section9* create a new file *Section9/answer.nd* with that answer and commit changes.
-15. Get this file (Topic9/Task11.md from branch *Tasks*)  included to latest commit of branch *Section9* using amend option;
-16. Push commit to corresponding server branch for a review;
+15.	On branch *Section9* create a new file *Section9/answer.md* with that answer.
+16. Get this file (Topic9/Task11.md from branch *Tasks*) to branch *Section9* to directory *Section9*;
+17. In directory *Section9* run command *history >> history11.txt* and stage changes;
+18.	Include these changes into new commit with description "Task#11 Details" (Check README.md file for instructions);
+19. Push changes to corresponding server branch for a review;
+20. Create a merge request to apply required changes to *development* branch;
 
-Final Steps - merge all to master branch:
+Final Steps - merge all to *master* branch:
 
-17. Once reviewed by Tutor, merge all the changes to branch *master* (Check README.md file for instructions);
-18. Change to branch *master* if not yet on it;
-19. In directory *Section9* run command *history >> history11.txt* and stage changes;
-20.	Include these changes into previous commit (Check README.md file for instructions);
-21.	Push branch *master* changes to server for review;
+21. Once reviewed by Tutor, create a merge request to apply required changes from *development* to *master* branch;
 22. Once reviewed by Tutor, task is completed.
 
-#### Once done, you can follow up on next Topic/Task assignment.
+#### Once all the steps are done, you can follow up on next Topic/Task assignment.
