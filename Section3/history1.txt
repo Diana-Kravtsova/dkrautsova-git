@@ -1,0 +1,1459 @@
+    1  git config --global --list
+    2  git config --global -e
+    3  exit
+    4  git config --global -e
+    5  exit
+    6  git config --global --list
+    7  git config --global user.email "DKrautsova@gomel.iba.by"
+    8  git config --global user.name "Dziana Krautsova"
+    9  git config --global core.autocrlf "true"
+   10   git config --global --list
+   11  git clone https://<your_username>:<your_password>@okd-gitlab.gomel.iba.by/git-education/<your_username>-git.git
+   12  git clone https://dkrautsova:F6KQNZbTB4QJ5Kt@okd-gitlab.gomel.iba.by/git-education/dkrautsova-git.git
+   13  exit
+   14  git version
+   15  ls
+   16  cd dkrautsova-git
+   17  ls
+   18  git status
+   19  git status
+   20  clear
+   21  git status
+   22  github-demo $ echo "Test Git Quick Start demo" >> start.txt
+   23  $ V
+   24  $ V
+   25  echo "Test Git Quick Start demo" >> start.txt
+   26  echo "Test Git Quick Start demo" >> start.txt
+   27  ls
+   28  cat start.txt
+   29  git status
+   30  git add start.txt
+   31  git status
+   32  git commit -m "Adding start text file"
+   33  git status
+   34  git push origin master
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "Adding start text file"
+   39  git status
+   40  git push origin master
+   41  exit
+   42  git config --global --list
+   43  git config --global user.name "Diana-Kravtsova"
+   44  git config --global user.email "dayana.kravtsova@gmail.com"
+   45  git config --global --list
+   46  pwd
+   47  mkdir projects
+   48  cd projects
+   49  pwd
+   50  git clone https://github.com/Diana-Kravtsova/github-demo.git
+   51  ls
+   52  cd github-demo
+   53  ls
+   54  git status
+   55  echo "Test Git Quick Start demo" >> start.txt"
+   56  ls
+   57  ls
+   58  ls
+   59  echo "Test Git Quick Start demo" >> start.txt
+   60  ls
+   61  cat start.txt
+   62  git status
+   63  git add start.txt
+   64  git status 
+   65  git commit -m "Adding start text file"
+   66  git status
+   67  git push origin main
+   68  git status --help
+   69  cd 
+   70  ls
+   71  cd dkrautsova-git
+   72  git config --global user.name "DKrautsova"
+   73  git config --global user.email "DKrautsova@gomel.iba.by"
+   74  git config --global --list
+   75  git fetch
+   76  git checkout test
+   77  git status
+   78  echo "Test push file" >> test.txt
+   79  ls
+   80  cat test.txt
+   81  git status
+   82  git add test.txt
+   83  git status
+   84  git commit -m "Add test text file"
+   85  git status
+   86  git push origin test
+   87  exit
+   88  pwd
+   89  cd projects
+   90  pwd
+   91  ls
+   92  git init fresh-project
+   93  ды
+   94  ls
+   95  cd fresh-project
+   96  ls
+   97  ls -al
+   98  cd .git/
+   99  ls
+  100  cd ..
+  101  git status
+  102  cd
+  103  git status
+  104  cd projects
+  105  cd fresh-project
+  106  dir
+  107  ls
+  108  ls
+  109  ls -al
+  110  cd .git/
+  111  ls
+  112  cd ..
+  113  pwd
+  114  git status
+  115  mate hipster.txt
+  116  mate --help
+  117  mate hipster.txt
+  118  notepad++ hipster.txt
+  119  git status
+  120  git add hipster.txt
+  121  git status
+  122  git commit
+  123  git status
+  124  cd ..
+  125  pwd
+  126  ls
+  127  exit
+  128  pwd
+  129  ls
+  130  cd projects
+  131  ls
+  132  cd fresh-project
+  133  git status
+  134  cd ..
+  135  ls
+  136  rm -rf fresh-froject/
+  137  ls
+  138  rm -rf fresh-project/
+  139  ls
+  140  exit
+  141  pwd
+  142  cd projects/
+  143  ls
+  144  git clone https://github.com/Diana-Kravtsova/starter-web.git
+  145  ls
+  146  cd starter-web
+  147  ls
+  148  ls -al
+  149  cd .git
+  150  ls
+  151  cd ..
+  152  clear
+  153  git status
+  154  exit
+  155  pwd
+  156  cd project/
+  157  cd projects/
+  158  ls
+  159  cd starter-web/
+  160  clear
+  161  ls
+  162  git status
+  163  clear
+  164  notepad++ hipster.txt
+  165  ды
+  166  ls
+  167  git status
+  168  git add hipster.txt
+  169  git status
+  170  git commit
+  171  git status
+  172  git pull origin master
+  173  git push origin master 
+  174  cd
+  175  notepad++ ~/.gitconfig
+  176  cd projects/
+  177  cd starter-web/
+  178  ls
+  179  git status
+  180  notepad++ hipster.txt
+  181  git status
+  182  git commit -am "Adding more ipsum text"
+  183  git ls-files
+  184  notepad++ newfile.txt
+  185  ls
+  186  git status
+  187  git ls-files
+  188  git add newfile.txt
+  189  git status
+  190  git ls-files
+  191  exit
+  192  notepad++
+  193  exit
+  194  pwd
+  195  cd projects
+  196  cd starter-web
+  197  clear
+  198  ls
+  199  notepad++ hipster.txt
+  200  git status
+  201  git commit -m "Adding new file"
+  202  git status
+  203   git add hipster.txt
+  204  git status
+  205  notepad++ hipster.txt
+  206  git status
+  207   git add hipster.txt
+  208  git status
+  209  git commit -m "More ipsum for hipsters"
+  210  git status
+  211  mkdir -p level1/level2/level3/level5
+  212  ls
+  213  cd level1
+  214  pwd
+  215  notepad++ level1-file.txt
+  216  ls
+  217  cd level2
+  218  pwd
+  219  notepad++ level2-file.txt
+  220  ls
+  221  cd level3
+  222  notepad++ level3-file.txt
+  223  ls
+  224  rm -rf level5
+  225  ls
+  226  clear
+  227  cd ../../..
+  228  ls
+  229  git status
+  230  git add .
+  231  git status
+  232  git commit 
+  233  git commit 
+  234  ls
+  235  git status
+  236  cd level1
+  237  notepad++ level1-file.txt
+  238  git status
+  239   git add level1-file.txt
+  240  git status
+  241  notepad++ level1-file.txt
+  242  clear
+  243  git status
+  244  git reset HEAD level1-file.txt
+  245  git status
+  246  notepad++ level1-file.txt
+  247  clear
+  248  git status
+  249  git restore level1-file.txt
+  250  git status
+  251  notepad++ level1-file.txt
+  252  clear
+  253  cd level2/level3
+  254  ls
+  255  git status
+  256  git mv level3-file.txt level3.txt
+  257  ls
+  258  git status
+  259  git commit -m "Renaming level3 file"
+  260  cd ..
+  261  clear
+  262  pwd
+  263  ls
+  264  mv level2-file.txt level2.txt
+  265  la
+  266  ls
+  267  git status
+  268  git add -A
+  269  git status
+  270  git commit
+  271  ls
+  272  git mv level2.txt 2.txt
+  273  ls
+  274  git status
+  275  git mv 2.txt level2.txt
+  276  ls
+  277  git status
+  278  clea
+  279  clear
+  280  ls
+  281  git mv level2.txt level3
+  282  ls
+  283  cd level3
+  284  ls
+  285  git status
+  286  cd ..
+  287  git status
+  288  git commit
+  289  ls
+  290  cd level 3
+  291  cd level3
+  292  ls
+  293  mv level2.txt ..
+  294  ls
+  295  cd ..
+  296  ls
+  297  git status
+  298  git add -A
+  299  git status
+  300  git commit
+  301  cd ..
+  302  clear
+  303  ls
+  304  git status
+  305  git add level1.txt
+  306  git add -u
+  307  git status
+  308  git commit
+  309  cd ..
+  310  git status
+  311  notepad++ doomed.txt
+  312  ls
+  313  git status
+  314  git rm doomed.txt
+  315  rm doomed.txt
+  316  ls
+  317  git status
+  318  clear
+  319  git ls-files
+  320  ls
+  321  git rm newfile.txt
+  322  ls
+  323  git status
+  324  git commit -m "Deleting new file"
+  325  git status
+  326  clear
+  327  ls
+  328  git ls-files
+  329  git rm hipster.txt
+  330  ls
+  331  git status
+  332  git reset HEAD hipster.txt
+  333  ls
+  334  git status
+  335  git restore hipster.txt
+  336  ls
+  337  git status
+  338  clear
+  339  ls
+  340  rm hipster.txt
+  341  ls
+  342  git status
+  343  git add -A 
+  344  git status
+  345  git commit 
+  346  git status
+  347  clear
+  348  ls
+  349  rm -rf level1
+  350  ls
+  351  git status
+  352  git add -A 
+  353  git status
+  354  git commit -m "Deleting level1 and all children"
+  355  git status
+  356  exit
+  357  git help log
+  358  cd progects/starter-web
+  359  cd projects/starter-web
+  360  git status
+  361  clear
+  362  git log
+  363  git config
+  364  git config --list
+  365  git config --global user.name "Diana-Kravtsova"
+  366  git log
+  367  git config --global user.name "DKrautsova"
+  368  git config --list
+  369  git log  --abbrev-commit
+  370  git log --oneline --graph --decorate
+  371  git log 44bd634...d17b1c0
+  372  git log --since="3 days ago"
+  373  clear
+  374  ls
+  375  git log --hipster.txt
+  376  git log -- hipster.txt
+  377  clear
+  378  git log --follow -- level1/level2/level2.txt
+  379  clear
+  380  git log --follow -- level1/level2/level2.txt
+  381  clear
+  382  git show 3274f6783b81089317e252f9b140cf45fc1b24ea
+  383  clear
+  384  ls
+  385  git status
+  386  clear
+  387  git log --all --graph --decorate --oneline
+  388  git config --global alias.hist "
+  389  exit
+  390  "
+  391  git config --global alias.hist "
+  392  log --all --graph --decorate --oneline
+  393  "
+  394  git hist
+  395  git config --global alias.hist "log --all --graph --decorate --oneline"
+  396  git hist
+  397  clear
+  398  notepad++ ~/.gitconfig
+  399  git hist
+  400  notepad++ ~/.gitconfig
+  401  git hist
+  402  ls
+  403  ls -al
+  404  notepad++ .gitignore
+  405  ls
+  406  ls -al
+  407  git status
+  408  git add .gitignore
+  409  git status
+  410  git commit
+  411  git status
+  412  ls
+  413  notepad++ access.log
+  414  ls
+  415  git status
+  416  notepad++ .gitignore
+  417  git status
+  418  mkdir log
+  419  mv access.log log
+  420  ls
+  421  cd log/
+  422  ll
+  423  cp access.log access.2014-11-0
+  424  cp access.log access.2014-11-04
+  425  ll
+  426  git status
+  427  notepad++ .gitignore
+  428  git status
+  429  git status
+  430  cd ..
+  431  git status
+  432  git restore .gitignore
+  433  git status
+  434  cd log
+  435  git status
+  436  notepad++ .gitignore
+  437  cd ..
+  438  notepad++ .gitignore
+  439  git status
+  440  cd log
+  441  ls
+  442  ll
+  443  cd ..
+  444  git status
+  445  notepad++ .gitignore
+  446  git status
+  447  git commit -am "Excluding log file directory"
+  448  git status
+  449  ls
+  450  git status
+  451  clear
+  452  git pull origin master
+  453  git push origin master
+  454  exit
+  455  cd projects/dkrautsova-git
+  456  cd dkrautsova-git
+  457  git help checkout
+  458  git status
+  459  ls
+  460  git log
+  461  exit
+  462  cd dkravtsova-git
+  463  cd dkrautsova-git
+  464  git branch -r
+  465  git fetch
+  466  git branch -r
+  467  git chekout Section3
+  468  git checkout Section3
+  469  mkdir Section3 
+  470  ls
+  471  cd Section3
+  472  git status
+  473  cd ..
+  474  notepad++ file.txt
+  475  ls
+  476  git status
+  477  git status
+  478  git mv file.txt ..
+  479  git add file.txt
+  480  git status
+  481  git commit 
+  482  mkdir Section3
+  483  ls
+  484  mv file.txt Section3/
+  485  ls
+  486  cd Section3
+  487  ls
+  488  git status
+  489  git add -A
+  490  git status
+  491  git commit 
+  492  exit
+  493  cd dkrautsova-git/Section3
+  494  git status
+  495  history >> history1.txt
+    1  git config --global --list
+    2  git config --global -e
+    3  exit
+    4  git config --global -e
+    5  exit
+    6  git config --global --list
+    7  git config --global user.email "DKrautsova@gomel.iba.by"
+    8  git config --global user.name "Dziana Krautsova"
+    9  git config --global core.autocrlf "true"
+   10   git config --global --list
+   11  git clone https://<your_username>:<your_password>@okd-gitlab.gomel.iba.by/git-education/<your_username>-git.git
+   12  git clone https://dkrautsova:F6KQNZbTB4QJ5Kt@okd-gitlab.gomel.iba.by/git-education/dkrautsova-git.git
+   13  exit
+   14  git version
+   15  ls
+   16  cd dkrautsova-git
+   17  ls
+   18  git status
+   19  git status
+   20  clear
+   21  git status
+   22  github-demo $ echo "Test Git Quick Start demo" >> start.txt
+   23  $ V
+   24  $ V
+   25  echo "Test Git Quick Start demo" >> start.txt
+   26  echo "Test Git Quick Start demo" >> start.txt
+   27  ls
+   28  cat start.txt
+   29  git status
+   30  git add start.txt
+   31  git status
+   32  git commit -m "Adding start text file"
+   33  git status
+   34  git push origin master
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "Adding start text file"
+   39  git status
+   40  git push origin master
+   41  exit
+   42  git config --global --list
+   43  git config --global user.name "Diana-Kravtsova"
+   44  git config --global user.email "dayana.kravtsova@gmail.com"
+   45  git config --global --list
+   46  pwd
+   47  mkdir projects
+   48  cd projects
+   49  pwd
+   50  git clone https://github.com/Diana-Kravtsova/github-demo.git
+   51  ls
+   52  cd github-demo
+   53  ls
+   54  git status
+   55  echo "Test Git Quick Start demo" >> start.txt"
+   56  ls
+   57  ls
+   58  ls
+   59  echo "Test Git Quick Start demo" >> start.txt
+   60  ls
+   61  cat start.txt
+   62  git status
+   63  git add start.txt
+   64  git status 
+   65  git commit -m "Adding start text file"
+   66  git status
+   67  git push origin main
+   68  git status --help
+   69  cd 
+   70  ls
+   71  cd dkrautsova-git
+   72  git config --global user.name "DKrautsova"
+   73  git config --global user.email "DKrautsova@gomel.iba.by"
+   74  git config --global --list
+   75  git fetch
+   76  git checkout test
+   77  git status
+   78  echo "Test push file" >> test.txt
+   79  ls
+   80  cat test.txt
+   81  git status
+   82  git add test.txt
+   83  git status
+   84  git commit -m "Add test text file"
+   85  git status
+   86  git push origin test
+   87  exit
+   88  pwd
+   89  cd projects
+   90  pwd
+   91  ls
+   92  git init fresh-project
+   93  ды
+   94  ls
+   95  cd fresh-project
+   96  ls
+   97  ls -al
+   98  cd .git/
+   99  ls
+  100  cd ..
+  101  git status
+  102  cd
+  103  git status
+  104  cd projects
+  105  cd fresh-project
+  106  dir
+  107  ls
+  108  ls
+  109  ls -al
+  110  cd .git/
+  111  ls
+  112  cd ..
+  113  pwd
+  114  git status
+  115  mate hipster.txt
+  116  mate --help
+  117  mate hipster.txt
+  118  notepad++ hipster.txt
+  119  git status
+  120  git add hipster.txt
+  121  git status
+  122  git commit
+  123  git status
+  124  cd ..
+  125  pwd
+  126  ls
+  127  exit
+  128  pwd
+  129  ls
+  130  cd projects
+  131  ls
+  132  cd fresh-project
+  133  git status
+  134  cd ..
+  135  ls
+  136  rm -rf fresh-froject/
+  137  ls
+  138  rm -rf fresh-project/
+  139  ls
+  140  exit
+  141  pwd
+  142  cd projects/
+  143  ls
+  144  git clone https://github.com/Diana-Kravtsova/starter-web.git
+  145  ls
+  146  cd starter-web
+  147  ls
+  148  ls -al
+  149  cd .git
+  150  ls
+  151  cd ..
+  152  clear
+  153  git status
+  154  exit
+  155  pwd
+  156  cd project/
+  157  cd projects/
+  158  ls
+  159  cd starter-web/
+  160  clear
+  161  ls
+  162  git status
+  163  clear
+  164  notepad++ hipster.txt
+  165  ды
+  166  ls
+  167  git status
+  168  git add hipster.txt
+  169  git status
+  170  git commit
+  171  git status
+  172  git pull origin master
+  173  git push origin master 
+  174  cd
+  175  notepad++ ~/.gitconfig
+  176  cd projects/
+  177  cd starter-web/
+  178  ls
+  179  git status
+  180  notepad++ hipster.txt
+  181  git status
+  182  git commit -am "Adding more ipsum text"
+  183  git ls-files
+  184  notepad++ newfile.txt
+  185  ls
+  186  git status
+  187  git ls-files
+  188  git add newfile.txt
+  189  git status
+  190  git ls-files
+  191  exit
+  192  notepad++
+  193  exit
+  194  pwd
+  195  cd projects
+  196  cd starter-web
+  197  clear
+  198  ls
+  199  notepad++ hipster.txt
+  200  git status
+  201  git commit -m "Adding new file"
+  202  git status
+  203   git add hipster.txt
+  204  git status
+  205  notepad++ hipster.txt
+  206  git status
+  207   git add hipster.txt
+  208  git status
+  209  git commit -m "More ipsum for hipsters"
+  210  git status
+  211  mkdir -p level1/level2/level3/level5
+  212  ls
+  213  cd level1
+  214  pwd
+  215  notepad++ level1-file.txt
+  216  ls
+  217  cd level2
+  218  pwd
+  219  notepad++ level2-file.txt
+  220  ls
+  221  cd level3
+  222  notepad++ level3-file.txt
+  223  ls
+  224  rm -rf level5
+  225  ls
+  226  clear
+  227  cd ../../..
+  228  ls
+  229  git status
+  230  git add .
+  231  git status
+  232  git commit 
+  233  git commit 
+  234  ls
+  235  git status
+  236  cd level1
+  237  notepad++ level1-file.txt
+  238  git status
+  239   git add level1-file.txt
+  240  git status
+  241  notepad++ level1-file.txt
+  242  clear
+  243  git status
+  244  git reset HEAD level1-file.txt
+  245  git status
+  246  notepad++ level1-file.txt
+  247  clear
+  248  git status
+  249  git restore level1-file.txt
+  250  git status
+  251  notepad++ level1-file.txt
+  252  clear
+  253  cd level2/level3
+  254  ls
+  255  git status
+  256  git mv level3-file.txt level3.txt
+  257  ls
+  258  git status
+  259  git commit -m "Renaming level3 file"
+  260  cd ..
+  261  clear
+  262  pwd
+  263  ls
+  264  mv level2-file.txt level2.txt
+  265  la
+  266  ls
+  267  git status
+  268  git add -A
+  269  git status
+  270  git commit
+  271  ls
+  272  git mv level2.txt 2.txt
+  273  ls
+  274  git status
+  275  git mv 2.txt level2.txt
+  276  ls
+  277  git status
+  278  clea
+  279  clear
+  280  ls
+  281  git mv level2.txt level3
+  282  ls
+  283  cd level3
+  284  ls
+  285  git status
+  286  cd ..
+  287  git status
+  288  git commit
+  289  ls
+  290  cd level 3
+  291  cd level3
+  292  ls
+  293  mv level2.txt ..
+  294  ls
+  295  cd ..
+  296  ls
+  297  git status
+  298  git add -A
+  299  git status
+  300  git commit
+  301  cd ..
+  302  clear
+  303  ls
+  304  git status
+  305  git add level1.txt
+  306  git add -u
+  307  git status
+  308  git commit
+  309  cd ..
+  310  git status
+  311  notepad++ doomed.txt
+  312  ls
+  313  git status
+  314  git rm doomed.txt
+  315  rm doomed.txt
+  316  ls
+  317  git status
+  318  clear
+  319  git ls-files
+  320  ls
+  321  git rm newfile.txt
+  322  ls
+  323  git status
+  324  git commit -m "Deleting new file"
+  325  git status
+  326  clear
+  327  ls
+  328  git ls-files
+  329  git rm hipster.txt
+  330  ls
+  331  git status
+  332  git reset HEAD hipster.txt
+  333  ls
+  334  git status
+  335  git restore hipster.txt
+  336  ls
+  337  git status
+  338  clear
+  339  ls
+  340  rm hipster.txt
+  341  ls
+  342  git status
+  343  git add -A 
+  344  git status
+  345  git commit 
+  346  git status
+  347  clear
+  348  ls
+  349  rm -rf level1
+  350  ls
+  351  git status
+  352  git add -A 
+  353  git status
+  354  git commit -m "Deleting level1 and all children"
+  355  git status
+  356  exit
+  357  git help log
+  358  cd progects/starter-web
+  359  cd projects/starter-web
+  360  git status
+  361  clear
+  362  git log
+  363  git config
+  364  git config --list
+  365  git config --global user.name "Diana-Kravtsova"
+  366  git log
+  367  git config --global user.name "DKrautsova"
+  368  git config --list
+  369  git log  --abbrev-commit
+  370  git log --oneline --graph --decorate
+  371  git log 44bd634...d17b1c0
+  372  git log --since="3 days ago"
+  373  clear
+  374  ls
+  375  git log --hipster.txt
+  376  git log -- hipster.txt
+  377  clear
+  378  git log --follow -- level1/level2/level2.txt
+  379  clear
+  380  git log --follow -- level1/level2/level2.txt
+  381  clear
+  382  git show 3274f6783b81089317e252f9b140cf45fc1b24ea
+  383  clear
+  384  ls
+  385  git status
+  386  clear
+  387  git log --all --graph --decorate --oneline
+  388  git config --global alias.hist "
+  389  exit
+  390  "
+  391  git config --global alias.hist "
+  392  log --all --graph --decorate --oneline
+  393  "
+  394  git hist
+  395  git config --global alias.hist "log --all --graph --decorate --oneline"
+  396  git hist
+  397  clear
+  398  notepad++ ~/.gitconfig
+  399  git hist
+  400  notepad++ ~/.gitconfig
+  401  git hist
+  402  ls
+  403  ls -al
+  404  notepad++ .gitignore
+  405  ls
+  406  ls -al
+  407  git status
+  408  git add .gitignore
+  409  git status
+  410  git commit
+  411  git status
+  412  ls
+  413  notepad++ access.log
+  414  ls
+  415  git status
+  416  notepad++ .gitignore
+  417  git status
+  418  mkdir log
+  419  mv access.log log
+  420  ls
+  421  cd log/
+  422  ll
+  423  cp access.log access.2014-11-0
+  424  cp access.log access.2014-11-04
+  425  ll
+  426  git status
+  427  notepad++ .gitignore
+  428  git status
+  429  git status
+  430  cd ..
+  431  git status
+  432  git restore .gitignore
+  433  git status
+  434  cd log
+  435  git status
+  436  notepad++ .gitignore
+  437  cd ..
+  438  notepad++ .gitignore
+  439  git status
+  440  cd log
+  441  ls
+  442  ll
+  443  cd ..
+  444  git status
+  445  notepad++ .gitignore
+  446  git status
+  447  git commit -am "Excluding log file directory"
+  448  git status
+  449  ls
+  450  git status
+  451  clear
+  452  git pull origin master
+  453  git push origin master
+  454  exit
+  455  cd projects/dkrautsova-git
+  456  cd dkrautsova-git
+  457  git help checkout
+  458  git status
+  459  ls
+  460  git log
+  461  exit
+  462  cd dkravtsova-git
+  463  cd dkrautsova-git
+  464  git branch -r
+  465  git fetch
+  466  git branch -r
+  467  git chekout Section3
+  468  git checkout Section3
+  469  mkdir Section3 
+  470  ls
+  471  cd Section3
+  472  git status
+  473  cd ..
+  474  notepad++ file.txt
+  475  ls
+  476  git status
+  477  git status
+  478  git mv file.txt ..
+  479  git add file.txt
+  480  git status
+  481  git commit 
+  482  mkdir Section3
+  483  ls
+  484  mv file.txt Section3/
+  485  ls
+  486  cd Section3
+  487  ls
+  488  git status
+  489  git add -A
+  490  git status
+  491  git commit 
+  492  exit
+  493  cd dkrautsova-git/Section3
+  494  git status
+  495  history >> history1.txt
+  496  ls
+  497  history >> history1.txt
+    1  git config --global --list
+    2  git config --global -e
+    3  exit
+    4  git config --global -e
+    5  exit
+    6  git config --global --list
+    7  git config --global user.email "DKrautsova@gomel.iba.by"
+    8  git config --global user.name "Dziana Krautsova"
+    9  git config --global core.autocrlf "true"
+   10   git config --global --list
+   11  git clone https://<your_username>:<your_password>@okd-gitlab.gomel.iba.by/git-education/<your_username>-git.git
+   12  git clone https://dkrautsova:F6KQNZbTB4QJ5Kt@okd-gitlab.gomel.iba.by/git-education/dkrautsova-git.git
+   13  exit
+   14  git version
+   15  ls
+   16  cd dkrautsova-git
+   17  ls
+   18  git status
+   19  git status
+   20  clear
+   21  git status
+   22  github-demo $ echo "Test Git Quick Start demo" >> start.txt
+   23  $ V
+   24  $ V
+   25  echo "Test Git Quick Start demo" >> start.txt
+   26  echo "Test Git Quick Start demo" >> start.txt
+   27  ls
+   28  cat start.txt
+   29  git status
+   30  git add start.txt
+   31  git status
+   32  git commit -m "Adding start text file"
+   33  git status
+   34  git push origin master
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "Adding start text file"
+   39  git status
+   40  git push origin master
+   41  exit
+   42  git config --global --list
+   43  git config --global user.name "Diana-Kravtsova"
+   44  git config --global user.email "dayana.kravtsova@gmail.com"
+   45  git config --global --list
+   46  pwd
+   47  mkdir projects
+   48  cd projects
+   49  pwd
+   50  git clone https://github.com/Diana-Kravtsova/github-demo.git
+   51  ls
+   52  cd github-demo
+   53  ls
+   54  git status
+   55  echo "Test Git Quick Start demo" >> start.txt"
+   56  ls
+   57  ls
+   58  ls
+   59  echo "Test Git Quick Start demo" >> start.txt
+   60  ls
+   61  cat start.txt
+   62  git status
+   63  git add start.txt
+   64  git status 
+   65  git commit -m "Adding start text file"
+   66  git status
+   67  git push origin main
+   68  git status --help
+   69  cd 
+   70  ls
+   71  cd dkrautsova-git
+   72  git config --global user.name "DKrautsova"
+   73  git config --global user.email "DKrautsova@gomel.iba.by"
+   74  git config --global --list
+   75  git fetch
+   76  git checkout test
+   77  git status
+   78  echo "Test push file" >> test.txt
+   79  ls
+   80  cat test.txt
+   81  git status
+   82  git add test.txt
+   83  git status
+   84  git commit -m "Add test text file"
+   85  git status
+   86  git push origin test
+   87  exit
+   88  pwd
+   89  cd projects
+   90  pwd
+   91  ls
+   92  git init fresh-project
+   93  ls
+   94  cd fresh-project
+   95  ls
+   96  ls -al
+   97  cd .git/
+   98  ls
+   99  cd ..
+  100  git status
+  101  cd
+  102  git status
+  103  cd projects
+  104  cd fresh-project
+  105  dir
+  106  ls
+  107  ls
+  108  ls -al
+  109  cd .git/
+  110  ls
+  111  cd ..
+  112  pwd
+  113  git status
+  114  mate hipster.txt
+  115  mate --help
+  116  mate hipster.txt
+  117  notepad++ hipster.txt
+  118  git status
+  119  git add hipster.txt
+  120  git status
+  121  git commit
+  122  git status
+  123  cd ..
+  124  pwd
+  125  ls
+  126  exit
+  127  pwd
+  128  ls
+  129  cd projects
+  130  ls
+  131  cd fresh-project
+  132  git status
+  133  cd ..
+  134  ls
+  135  rm -rf fresh-froject/
+  136  ls
+  137  rm -rf fresh-project/
+  138  ls
+  139  exit
+  140  pwd
+  141  cd projects/
+  142  ls
+  143  git clone https://github.com/Diana-Kravtsova/starter-web.git
+  144  ls
+  145  cd starter-web
+  146  ls
+  147  ls -al
+  148  cd .git
+  149  ls
+  150  cd ..
+  151  clear
+  152  git status
+  153  exit
+  154  pwd
+  155  cd projects/
+  156  ls
+  157  cd starter-web/
+  158  clear
+  159  ls
+  160  git status
+  161  clear
+  162  notepad++ hipster.txt
+  163  ды
+  164  ls
+  165  git status
+  166  git add hipster.txt
+  167  git status
+  168  git commit
+  169  git status
+  170  git pull origin master
+  171  git push origin master 
+  172  cd
+  173  notepad++ ~/.gitconfig
+  174  cd projects/
+  175  cd starter-web/
+  176  ls
+  177  git status
+  178  notepad++ hipster.txt
+  179  git status
+  180  git commit -am "Adding more ipsum text"
+  181  git ls-files
+  182  notepad++ newfile.txt
+  183  ls
+  184  git status
+  185  git ls-files
+  186  git add newfile.txt
+  187  git status
+  188  git ls-files
+  189  exit
+  190  notepad++
+  191  exit
+  192  pwd
+  193  cd projects
+  194  cd starter-web
+  195  clear
+  196  ls
+  197  notepad++ hipster.txt
+  198  git status
+  199  git commit -m "Adding new file"
+  200  git status
+  201   git add hipster.txt
+  202  git status
+  203  notepad++ hipster.txt
+  204  git status
+  205   git add hipster.txt
+  206  git status
+  207  git commit -m "More ipsum for hipsters"
+  208  git status
+  209  mkdir -p level1/level2/level3/level5
+  210  ls
+  211  cd level1
+  212  pwd
+  213  notepad++ level1-file.txt
+  214  ls
+  215  cd level2
+  216  pwd
+  217  notepad++ level2-file.txt
+  218  ls
+  219  cd level3
+  220  notepad++ level3-file.txt
+  221  ls
+  222  rm -rf level5
+  223  ls
+  224  clear
+  225  cd ../../..
+  226  ls
+  227  git status
+  228  git add .
+  229  git status
+  230  git commit 
+  231  ls
+  232  git status
+  233  cd level1
+  234  notepad++ level1-file.txt
+  235  git status
+  236   git add level1-file.txt
+  237  git status
+  238  notepad++ level1-file.txt
+  239  clear
+  240  git status
+  241  git reset HEAD level1-file.txt
+  242  git status
+  243  notepad++ level1-file.txt
+  244  clear
+  245  git status
+  246  git restore level1-file.txt
+  247  git status
+  248  notepad++ level1-file.txt
+  249  clear
+  250  cd level2/level3
+  251  ls
+  252  git status
+  253  git mv level3-file.txt level3.txt
+  254  ls
+  255  git status
+  256  git commit -m "Renaming level3 file"
+  257  cd ..
+  258  clear
+  259  pwd
+  260  ls
+  261  mv level2-file.txt level2.txt
+  262  la
+  263  ls
+  264  git status
+  265  git add -A
+  266  git status
+  267  git commit
+  268  ls
+  269  git mv level2.txt 2.txt
+  270  ls
+  271  git status
+  272  git mv 2.txt level2.txt
+  273  ls
+  274  git status
+  275  clea
+  276  clear
+  277  ls
+  278  git mv level2.txt level3
+  279  ls
+  280  cd level3
+  281  ls
+  282  git status
+  283  cd ..
+  284  git status
+  285  git commit
+  286  ls
+  287  cd level 3
+  288  cd level3
+  289  ls
+  290  mv level2.txt ..
+  291  ls
+  292  cd ..
+  293  ls
+  294  git status
+  295  git add -A
+  296  git status
+  297  git commit
+  298  cd ..
+  299  clear
+  300  ls
+  301  git status
+  302  git add level1.txt
+  303  git add -u
+  304  git status
+  305  git commit
+  306  cd ..
+  307  git status
+  308  notepad++ doomed.txt
+  309  ls
+  310  git status
+  311  git rm doomed.txt
+  312  rm doomed.txt
+  313  ls
+  314  git status
+  315  clear
+  316  git ls-files
+  317  ls
+  318  git rm newfile.txt
+  319  ls
+  320  git status
+  321  git commit -m "Deleting new file"
+  322  git status
+  323  clear
+  324  ls
+  325  git ls-files
+  326  git rm hipster.txt
+  327  ls
+  328  git status
+  329  git reset HEAD hipster.txt
+  330  ls
+  331  git status
+  332  git restore hipster.txt
+  333  ls
+  334  git status
+  335  clear
+  336  ls
+  337  rm hipster.txt
+  338  ls
+  339  git status
+  340  git add -A 
+  341  git status
+  342  git commit 
+  343  git status
+  344  clear
+  345  ls
+  346  rm -rf level1
+  347  ls
+  348  git status
+  349  git add -A 
+  350  git status
+  351  git commit -m "Deleting level1 and all children"
+  352  git status
+  353  exit
+  354  git help log
+  355  cd projects/starter-web
+  356  git status
+  357  clear
+  358  git log  --abbrev-commit
+  359  git log --oneline --graph --decorate
+  360  git log 44bd634...d17b1c0
+  361  git log --since="3 days ago"
+  362  clear
+  363  ls
+  364  git log --hipster.txt
+  365  git log -- hipster.txt
+  366  clear
+  367  git log --follow -- level1/level2/level2.txt
+  368  clear
+  369  git log --follow -- level1/level2/level2.txt
+  370  clear
+  371  git show 3274f6783b81089317e252f9b140cf45fc1b24ea
+  372  clear
+  373  ls
+  374  git status
+  375  clear
+  376  git log --all --graph --decorate --oneline
+  377  git hist
+  378  git config --global alias.hist "log --all --graph --decorate --oneline"
+  379  git hist
+  380  clear
+  381  notepad++ ~/.gitconfig
+  382  git hist
+  383  notepad++ ~/.gitconfig
+  384  git hist
+  385  ls
+  386  ls -al
+  387  notepad++ .gitignore
+  388  ls
+  389  ls -al
+  390  git status
+  391  git add .gitignore
+  392  git status
+  393  git commit
+  394  git status
+  395  ls
+  396  notepad++ access.log
+  397  ls
+  398  git status
+  399  notepad++ .gitignore
+  400  git status
+  401  mkdir log
+  402  mv access.log log
+  403  ls
+  404  cd log/
+  405  ll
+  406  cp access.log access.2014-11-04
+  407  ll
+  408  git status
+  409  notepad++ .gitignore
+  410  git status
+  411  git status
+  412  cd ..
+  413  git status
+  414  git restore .gitignore
+  415  git status
+  416  cd log
+  417  git status
+  418  notepad++ .gitignore
+  419  cd ..
+  420  notepad++ .gitignore
+  421  git status
+  422  cd log
+  423  ls
+  424  ll
+  425  cd ..
+  426  git status
+  427  notepad++ .gitignore
+  428  git status
+  429  git commit -am "Excluding log file directory"
+  430  git status
+  431  ls
+  432  git status
+  433  clear
+  434  git pull origin master
+  435  git push origin master
+  436  exit
+  437  cd dkrautsova-git
+  438  git help checkout
+  439  git status
+  440  ls
+  441  git log
+  442  exit
+  443  cd dkrautsova-git
+  444  git fetch
+  445  git branch -r
+  446  git checkout Section3
+  447  git status
+  448  cd ..
+  449  notepad++ file.txt
+  450  ls
+  451  git status
+  452  git add file.txt
+  453  git status
+  454  git commit 
+  455  mkdir Section3
+  456  ls
+  457  mv file.txt Section3/
+  458  ls
+  459  cd Section3
+  460  ls
+  461  git status
+  462  git add -A
+  463  git status
+  464  git commit 
+  465  exit
+  466  cd dkrautsova-git/Section3
+  467  history >> history1.txt 
