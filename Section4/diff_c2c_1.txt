@@ -1,0 +1,32 @@
+diff --git a/Section4/test.txt b/Section4/test.txt
+index ff4f918..eb7705e 100644
+--- a/Section4/test.txt
++++ b/Section4/test.txt
+@@ -6,4 +6,8 @@ There
+ 
+ Update
+ 
+-New code
+\ No newline at end of file
++New code
++
++One more update
++
++Few lines of new code
+\ No newline at end of file
+diff --git a/Section4/test.txt b/Section4/test.txt
+index eb7705e..ff4f918 100644
+--- a/Section4/test.txt
++++ b/Section4/test.txt
+@@ -6,8 +6,4 @@ There
+ 
+ Update
+ 
+-New code
+-
+-One more update
+-
+-Few lines of new code
+\ No newline at end of file
++New code
+\ No newline at end of file
