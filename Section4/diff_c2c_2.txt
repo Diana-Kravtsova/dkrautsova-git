@@ -1,0 +1,45 @@
+diff --git a/Section4/diff_b2b.txt b/Section4/diff_b2b.txt
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/Section4/diff_wd2sa.txt b/Section4/diff_wd2sa.txt
+deleted file mode 100644
+index 2739123..0000000
+--- a/Section4/diff_wd2sa.txt
++++ /dev/null
+@@ -1,16 +0,0 @@
+-diff --git a/Section4/test.txt b/Section4/test.txt
+-index 9b9a33b..ff4f918 100644
+---- a/Section4/test.txt
+-+++ b/Section4/test.txt
+-@@ -2,4 +2,8 @@ Few
+- 
+- Lines
+- 
+--There
+-\ No newline at end of file
+-+There
+-+
+-+Update
+-+
+-+New code
+-\ No newline at end of file
+diff --git a/Section4/test.txt b/Section4/test.txt
+deleted file mode 100644
+index eb7705e..0000000
+--- a/Section4/test.txt
++++ /dev/null
+@@ -1,13 +0,0 @@
+-Few
+-
+-Lines
+-
+-There
+-
+-Update
+-
+-New code
+-
+-One more update
+-
+-Few lines of new code
+\ No newline at end of file

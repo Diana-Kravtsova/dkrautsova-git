@@ -1,0 +1,461 @@
+    1  cd level2
+    2  pwd
+    3  notepad++ level2-file.txt
+    4  ls
+    5  cd level3
+    6  notepad++ level3-file.txt
+    7  ls
+    8  rm -rf level5
+    9  ls
+   10  clear
+   11  cd ../../..
+   12  ls
+   13  git status
+   14  git add .
+   15  git status
+   16  git commit 
+   17  ls
+   18  git status
+   19  cd level1
+   20  notepad++ level1-file.txt
+   21  git status
+   22   git add level1-file.txt
+   23  git status
+   24  notepad++ level1-file.txt
+   25  clear
+   26  git status
+   27  git reset HEAD level1-file.txt
+   28  git status
+   29  notepad++ level1-file.txt
+   30  clear
+   31  git status
+   32  git restore level1-file.txt
+   33  git status
+   34  notepad++ level1-file.txt
+   35  clear
+   36  cd level2/level3
+   37  ls
+   38  git status
+   39  git mv level3-file.txt level3.txt
+   40  ls
+   41  git status
+   42  git commit -m "Renaming level3 file"
+   43  cd ..
+   44  clear
+   45  pwd
+   46  ls
+   47  mv level2-file.txt level2.txt
+   48  la
+   49  ls
+   50  git status
+   51  git add -A
+   52  git status
+   53  git commit
+   54  ls
+   55  git mv level2.txt 2.txt
+   56  ls
+   57  git status
+   58  git mv 2.txt level2.txt
+   59  ls
+   60  git status
+   61  clea
+   62  clear
+   63  ls
+   64  git mv level2.txt level3
+   65  ls
+   66  cd level3
+   67  ls
+   68  git status
+   69  cd ..
+   70  git status
+   71  git commit
+   72  ls
+   73  cd level 3
+   74  cd level3
+   75  ls
+   76  mv level2.txt ..
+   77  ls
+   78  cd ..
+   79  ls
+   80  git status
+   81  git add -A
+   82  git status
+   83  git commit
+   84  cd ..
+   85  clear
+   86  ls
+   87  git status
+   88  git add level1.txt
+   89  git add -u
+   90  git status
+   91  git commit
+   92  cd ..
+   93  git status
+   94  notepad++ doomed.txt
+   95  ls
+   96  git status
+   97  git rm doomed.txt
+   98  rm doomed.txt
+   99  ls
+  100  git status
+  101  clear
+  102  git ls-files
+  103  ls
+  104  git rm newfile.txt
+  105  ls
+  106  git status
+  107  git commit -m "Deleting new file"
+  108  git status
+  109  clear
+  110  ls
+  111  git ls-files
+  112  git rm hipster.txt
+  113  ls
+  114  git status
+  115  git reset HEAD hipster.txt
+  116  ls
+  117  git status
+  118  git restore hipster.txt
+  119  ls
+  120  git status
+  121  clear
+  122  ls
+  123  rm hipster.txt
+  124  ls
+  125  git status
+  126  git add -A 
+  127  git status
+  128  git commit 
+  129  git status
+  130  clear
+  131  ls
+  132  rm -rf level1
+  133  ls
+  134  git status
+  135  git add -A 
+  136  git status
+  137  git commit -m "Deleting level1 and all children"
+  138  git status
+  139  exit
+  140  git help log
+  141  cd projects/starter-web
+  142  git status
+  143  clear
+  144  git log  --abbrev-commit
+  145  git log --oneline --graph --decorate
+  146  git log 44bd634...d17b1c0
+  147  git log --since="3 days ago"
+  148  clear
+  149  ls
+  150  git log --hipster.txt
+  151  git log -- hipster.txt
+  152  clear
+  153  git log --follow -- level1/level2/level2.txt
+  154  clear
+  155  git log --follow -- level1/level2/level2.txt
+  156  clear
+  157  git show 3274f6783b81089317e252f9b140cf45fc1b24ea
+  158  clear
+  159  ls
+  160  git status
+  161  clear
+  162  git log --all --graph --decorate --oneline
+  163  git hist
+  164  git config --global alias.hist "log --all --graph --decorate --oneline"
+  165  git hist
+  166  clear
+  167  notepad++ ~/.gitconfig
+  168  git hist
+  169  notepad++ ~/.gitconfig
+  170  git hist
+  171  ls
+  172  ls -al
+  173  notepad++ .gitignore
+  174  ls
+  175  ls -al
+  176  git status
+  177  git add .gitignore
+  178  git status
+  179  git commit
+  180  git status
+  181  ls
+  182  notepad++ access.log
+  183  ls
+  184  git status
+  185  notepad++ .gitignore
+  186  git status
+  187  mkdir log
+  188  mv access.log log
+  189  ls
+  190  cd log/
+  191  ll
+  192  cp access.log access.2014-11-04
+  193  ll
+  194  git status
+  195  notepad++ .gitignore
+  196  git status
+  197  git status
+  198  cd ..
+  199  git status
+  200  git restore .gitignore
+  201  git status
+  202  cd log
+  203  git status
+  204  notepad++ .gitignore
+  205  cd ..
+  206  notepad++ .gitignore
+  207  git status
+  208  cd log
+  209  ls
+  210  ll
+  211  cd ..
+  212  git status
+  213  notepad++ .gitignore
+  214  git status
+  215  git commit -am "Excluding log file directory"
+  216  git status
+  217  ls
+  218  git status
+  219  clear
+  220  git pull origin master
+  221  git push origin master
+  222  exit
+  223  cd dkrautsova-git
+  224  git help checkout
+  225  git status
+  226  ls
+  227  git log
+  228  exit
+  229  cd dkrautsova-git
+  230  git fetch
+  231  git branch -r
+  232  git checkout Section3
+  233  git status
+  234  cd ..
+  235  notepad++ file.txt
+  236  ls
+  237  git status
+  238  git add file.txt
+  239  git status
+  240  git commit 
+  241  mkdir Section3
+  242  ls
+  243  mv file.txt Section3/
+  244  ls
+  245  cd Section3
+  246  ls
+  247  git status
+  248  git add -A
+  249  git status
+  250  git commit 
+  251  exit
+  252  cd dkrautsova-git/Section3
+  253  history >> history1.txt 
+  254  git status
+  255  git add history1.txt
+  256  git status
+  257  cd ..
+  258  ls
+  259  git checkout origin/Tasks Topic3/Task1.md
+  260  ls
+  261  cd Section3
+  262  cd ..
+  263  cd Topic3
+  264  ls
+  265  mv Task1.md ../Section3
+  266  ls
+  267  cd ..
+  268  cd Section3
+  269  ls
+  270  git status
+  271  exit
+  272  cd dkrautsova-git
+  273  cd Section3
+  274  git status
+  275  git add -A
+  276  git status
+  277  git commit
+  278  git status
+  279  git pull origin Section3
+  280  git push origin Section3
+  281  exit
+  282  cd 
+  283  cd dkrautsova-git
+  284  notepad++ file.txt
+  285  ls
+  286  git status
+  287  git add file.txt
+  288  git status
+  289  git restore --staged file.txt
+  290  git status
+  291  git add file.txt
+  292  git commit 
+  293  git status
+  294  git restore --staged file.txt
+  295  exit
+  296  cd projects/starter-web
+  297  git branch -a
+  298  npp help
+  299  ls
+  300  npp README.md
+  301  git status 
+  302  git add README.md
+  303  git status 
+  304  git commit -m "Modify README file"
+  305  git push origin master
+  306  npp README.md
+  307  git commit -am "Add new section: Deployment"
+  308  git status 
+  309  git push
+  310  npp README.md
+  311  git status 
+  312  git commit -am "Add description"
+  313  npp README.md
+  314  git commit -am "Add introduction text"
+  315  npp README.md
+  316  git add README.md
+  317  git status 
+  318  npp README.md
+  319  git status 
+  320  git  diff
+  321  git  difftool
+  322  git config --global difftool.p4merge.path "D:/IBAtraining/p4merge/p4merge.exe"
+  323  git  difftool
+  324  git status 
+  325  git diff HEAD 
+  326  git difftool HEAD 
+  327  git difftool HEAD 
+  328  git diff --staged HEAD 
+  329  git difftool --staged HEAD 
+  330  ls
+  331  npp simple.html
+  332  git status 
+  333  git diff
+  334  git diff -- README.md
+  335  git difftool -- README.md
+  336  git log --oneline
+  337  git diff d17b1c0 HEAD
+  338  git diff HEAD HEAD^
+  339  git difftool HEAD HEAD^
+  340  git log --oneline
+  341  git diff 20f3f49 610ea8c
+  342  git difftool 20f3f49 610ea8c
+  343  git diff master origin/master
+  344  git difftool master origin/master
+  345  git status
+  346  git add .
+  347  git status
+  348  git commit -m "Update repo with changes from compare section"
+  349  git status
+  350  git pull
+  351  git push origin master
+  352  cd dkrautsova-git 
+  353  ls
+  354  git checkout master 
+  355  git pull
+  356  git status
+  357  git fetch
+  358  git branch -r
+  359  git checkout Section4
+  360  dir Section4
+  361  mkdir Section4
+  362  ls
+  363  cd dkrautsova-git 
+  364  cd Section4
+  365  npp test.txt
+  366  git status
+  367  cd ..
+  368  git status
+  369  git branch -r
+  370  git branch
+  371  git status
+  372  git diff --help
+  373  git diff Section4 origin/development
+  374  git branch
+  375  git diff origin/development
+  376  exit
+  377  cd dkrautsova-git 
+  378  git checkout development 
+  379  git fetch
+  380  ls
+  381  git status
+  382  git checkout Section4
+  383  ls
+  384  git diff Section4 origin/development
+  385  git diff Section4 -- origin/development
+  386  git difftool Section4 -- origin/development
+  387  git difftool HEAD
+  388  git diff HEAD
+  389  git difftool origin/development
+  390  git diff origin/development
+  391  git checkout development 
+  392  ls
+  393  git status
+  394  git checkout Section4
+  395  ls
+  396  mkdir Section4
+  397  git diff origin/development
+  398  git status
+  399  ls
+  400  git status
+  401  cd Section4
+  402  git status
+  403  git checkout master
+  404  git status
+  405  git hist
+  406  git status
+  407  git fetch
+  408  git log 
+  409  git hist
+  410  git reset --hard c6314cd
+  411  git hist
+  412  git checkout Section4
+  413  ls
+  414  cd ..
+  415  git status
+  416  git fetch
+  417  mkdir Section4
+  418  ls
+  419  git status
+  420  git log 
+  421  ls
+  422  git hist
+  423  ls
+  424  cd Section4
+  425  cd ..
+  426  git status
+  427  git diff Section4 -- origin/development >> Section4/diff_b2b.txt
+  428  git diff Section4 -- development >> Section4/diff_b2b.txt
+  429  cd Section4
+  430  npp test.txt
+  431  git status
+  432  git add test.txt
+  433  git status
+  434  npp test.txt
+  435  cd ..
+  436  git status
+  437  git diff >> Section4/diff_wd2sa.txt
+  438  git status
+  439  git add .
+  440  git status
+  441  git commit -m "Git Education - Topic4 - Task2 - Add 2-7 difference files"
+  442  npp Section4/test.txt
+  443  git status
+  444  git commit -a
+  445  git log 
+  446  git hist
+  447  git diff c4b0d62 HEAD >> Section4/diff_c2c_1.txt
+  448  git diff HEAD HEAD^ >> Section4/diff_c2c_1.txt
+  449  git hist 
+  450  git diff HEAD HEAD^^
+  451  git diff HEAD HEAD^
+  452  git diff HEAD HEAD^^ >> Section4/diff_c2c_2.txt
+  453  git diff Section4 -- origin/Section4 >> Section4/diff_l2s.txt
+  454  git status
+  455  git add .
+  456  git commit
+  457  git status
+  458  exit
+  459  cd dkrautsova-git 
+  460  cd Section4
+  461  history >> history2.txt
