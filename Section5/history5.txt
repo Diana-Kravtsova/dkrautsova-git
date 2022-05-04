@@ -1,0 +1,500 @@
+   85  git status
+   86  git commit -m "Git Education - Topic4 - Task3 - Task#3 Details"
+   87  git status
+   88  git pull origin Section4
+   89  git push origin Section4
+   90  exit
+   91  cd dkrautsova-git
+   92  git hist
+   93  git revert 67b0a49
+   94  git status
+   95  git push origin Section4
+   96  git status
+   97  git hist
+   98  git checkout origin/Tasks Topic4/Task3.md
+   99  git mv Topic4/Task3.md Section4
+  100  git status
+  101  git diff HEAD
+  102  git diff HEAD >> Section4/feature.patch
+  103  git status
+  104  git checkout Section4/Task3.md
+  105  git status
+  106  git add  Section4/Task3.md
+  107  git status
+  108  git rm -f  Section4/Task3.md
+  109  git status
+  110  git apply Section4/feature.patch
+  111  git status
+  112  cd dkrautsova-git
+  113  cd Section4
+  114  history >> history3.txt
+  115  git status
+  116  git add .
+  117  git commit -m "Git Education - Topic4 - Task3 - Task#3 Details"
+  118  git status
+  119  git pull origin Section4
+  120  git push origin Section4
+  121  exit
+  122  cd projects/starter-web
+  123  git branch -a
+  124  git branch mynewbranch
+  125  git branch -a
+  126  git checkout mynewbranch
+  127  git branch -a
+  128  git hist
+  129  git checkout master
+  130  git branch -m mynewbranch newbranch
+  131  git branch -a
+  132  git branch -d newbranch
+  133  git branch -a
+  134  git branch
+  135  git branch -a
+  136  git checkout -b title-change
+  137  git status
+  138  npp simple.html
+  139  git status
+  140  git commit -am "Change title of HTML file"
+  141  git log --oneline
+  142  git checkout master
+  143  git diff master title-change
+  144  git difftool master title-change
+  145  git merge title-change
+  146  git hist
+  147  git branch
+  148  git branch -d title-change
+  149  git branch
+  150  git hist
+  151  git status
+  152  git branch
+  153  git checkout -b add-copyright
+  154  git branch
+  155  npp simple.html
+  156  git status
+  157  git commit -am "Add copyright notice"
+  158  npp README.md
+  159  git commit -am "Add copyright notice to README.md"
+  160  git hist
+  161  git checkout master
+  162  git merge add-copyright --no-ff
+  163  git hist
+  164  git branch -d add-copyright
+  165  git hist
+  166  exit
+  167  cd projects/starter-web
+  168  git status
+  169  git branch
+  170  git checkout -b simple-changes
+  171  ll
+  172  npp human.txt
+  173  npp humans.txt
+  174  git status
+  175  git commit -am "Add team member to humans.txt"
+  176  git checkout master
+  177  ls
+  178  npp README.md
+  179  git status
+  180  git commit -am "Add instructions on how to contribute"
+  181  git hist
+  182  git branch
+  183  git merge simple-changes -m "Merge changes from simple-changes branch"
+  184  git hist
+  185  git branch
+  186  git branch -d simple-changes 
+  187  git hist
+  188  npp humans.txt
+  189  npp README.md
+  190  git status
+  191  git branch
+  192  git checkout -b realwork 
+  193  npp simple.html
+  194  git commit -am "Make changes to simple.html"
+  195  git checkout master
+  196  npp simple.html
+  197  exit
+  198  cd projects/starter-web
+  199  npp simple.html
+  200  git status
+  201  git add simple.html
+  202  git commit
+  203  git hist
+  204  git branch
+  205  git diff master realwork
+  206  git difftool master realwork
+  207  git merge realwork
+  208  ls
+  209  npp simple.html
+  210  git mergetool
+  211  git commit -am "Done resolve merge conflicts"
+  212  git status
+  213  npp simple.html.orig
+  214  npp .gitignore
+  215  git status
+  216  git add .gitignore
+  217  git commit -am "Update ignore file to exclude merge temp files"
+  218  git branch
+  219  git branch -d realwork
+  220  git hist
+  221  git status
+  222  git branch
+  223  git pull origin master 
+  224  git push origin master 
+  225  exit
+  226  cd 
+  227  dkrautsova-git
+  228  cd dkrautsova-git
+  229  git checkout development 
+  230  git fetch
+  231  git status
+  232  git branch -r
+  233  git fetch
+  234  git branch -r
+  235  git checkout Section5
+  236  mkdir Section5 
+  237  cd Section5 
+  238  npp newFile.txt
+  239  git add newFile.txt
+  240  git status
+  241  git commit 
+  242  git checkout development 
+  243  cd ..
+  244  cd Section5
+  245  ls
+  246  git fetch
+  247  ls
+  248  git checkout -b s5feature
+  249  git help branch
+  250  git help merge
+  251  git merge Section5 --no-ff
+  252  npp Section5/newFile.txt
+  253  git status
+  254  git add Section5/newFile.txt
+  255  git commit
+  256  git checkout Section5 
+  257  npp Section5/newFile.txt
+  258  git add Section5/newFile.txt
+  259  git commit
+  260  git merge s5feature 
+  261  npp Section5/newFile.txt
+  262  git mergetool
+  263  git commit
+  264  git hist 
+  265  git status
+  266  npp Section5/newFile.txt
+  267  git commit --amend
+  268  git status
+  269  git hist 
+  270  cd Section5 
+  271  history >> history4.txt
+  272  git status
+  273  git add history4.txt
+  274  git commit 
+  275  git checkout origin/Tasks Topic5/Task4.md
+  276  cd ..
+  277  git checkout origin/Tasks Topic5/Task4.md
+  278  git mv Topic5/Task4.md Section5
+  279  git status
+  280  git commit 
+  281  pull origin Section5
+  282  git pull origin Section5
+  283  git push origin Section5
+  284  exit
+  285  cd dkrautsova-git
+  286  exit
+  287  cd dkrautsova-git
+  288  git branch -r
+  289  git checkout master
+  290  git branch -a
+  291  git branch -d Section5
+  292  git push origin --delete Section5
+  293  git fetch
+  294  git branch -a
+  295  git fetch
+  296  git checkout Section5
+  297  git branch -a
+  298  git checkout Section5
+  299  mkdir Section5 
+  300  cd Section5 
+  301  npp newFile.txt
+  302  git add newFile.txt
+  303  git status
+  304  git commit 
+  305  git checkout development
+  306  git pull
+  307  cd ..
+  308  git pull
+  309  git fetch
+  310  git status
+  311  git checkout -b s5feature
+  312  git branch -a
+  313  git checkout s5feature
+  314  git status
+  315  git hist
+  316  git checkout development
+  317  git hist
+  318  git branch -d s5feature 
+  319  git checkout master
+  320  git branch -d s5feature 
+  321  git branch -D s5feature 
+  322  git status
+  323  git pull
+  324  git checkout development
+  325  git checkout -b s5feature
+  326  git hist
+  327  git merge Section5
+  328  git hist
+  329  npp Section5/newFile.txt
+  330  git status
+  331  git add Section5/newFile.txtnpp Section5/newFile.txt
+  332  git commit
+  333  git checkout Section5
+  334  npp Section5/newFile.txt
+  335  git add Section5/newFile.txt
+  336  git commit
+  337  git status
+  338  git hist
+  339  git merge s5feature --no-ff
+  340  git mergetool
+  341  git mergetool
+  342  npp Section5/newFile.txt
+  343  git commit
+  344  git status
+  345  git commit
+  346  git hist
+  347  git status
+  348  git commit --amend
+  349  git status
+  350  npp Section5/newFile.txt
+  351  git reset HEAD~1
+  352  git hist
+  353  git status
+  354  git status
+  355  git status
+  356  git hist
+  357  git merge s5feature --no-ff
+  358  git commit
+  359  git add Section5/newFile.txt
+  360  git commit
+  361  git reset HEAD~1
+  362  git hist
+  363  git status
+  364  git add Section5/newFile.txt
+  365  git commit
+  366  git merge s5feature --no-ff
+  367  git mergetool
+  368  git commit
+  369  npp Section5/newFile.txt
+  370  git commit
+  371  git add Section5/newFile.txt
+  372  git commit
+  373  cd Section5 
+  374  history >> history4.txt
+  375  cd ..
+  376  git checkout origin/Tasks Topic5/Task4.md
+  377  git mv Topic5/Task4.md Section5
+  378  git status
+  379  git add history4.txt
+  380  git add Sction5/history4.txt
+  381  git add Section5/history4.txt
+  382  git status
+  383  git commit
+  384  git pull origin Section5
+  385  git push origin Section5
+  386  exit
+  387  cd dkrautsova-git
+  388  git checkout development 
+  389  git pull
+  390  git checkout Section5
+  391  git hist
+  392  merge development 
+  393  git merge development 
+  394  git hist
+  395  git checkout development 
+  396  npp Section5/newFile.txt
+  397  git add Section5/newFile.txt
+  398  git commit
+  399  git checkout Section5
+  400  git checkout -b Section5secret
+  401  git branch -r
+  402  git branch -a
+  403  git fetch
+  404  git checkout master
+  405  git fetch
+  406  git branch -a
+  407  exit
+  408  cd dkrautsova-git
+  409  git fetch
+  410  git branch -a
+  411  git checkout  Section5secret
+  412  git merge s5secret1
+  413  git pull
+  414  git merge origin/s5secret1
+  415  hit hist
+  416  git hist
+  417  git merge origin/s5secret2
+  418  q
+  419  git mergetool
+  420  git reset --soft HEAD^
+  421  git reset --hard HEAD
+  422  git hist
+  423  ls
+  424  cd Section5
+  425  ls
+  426  npp  Task5S.md.orig 
+  427  npp  Task5S.md 
+  428  q
+  429  npp newFile.txt
+  430  exit
+  431  cd dkravtsova-git
+  432  cd dkrautsova-git
+  433  git status
+  434  npp newFile.txt
+  435  npp Section5/newFile.txt
+  436  git hist
+  437  npp add Section5/newFile.txt
+  438  add Section5/newFile.txt
+  439  git add Section5/newFile.txt
+  440  git commit
+  441  git checkout Section5
+  442  git merge Section5secret
+  443  git hist
+  444  git checkout development
+  445  npp Section5/Task5S.md
+  446  git add Section5/Task5S.md
+  447  git commit
+  448  git status
+  449  git hist
+  450  npp Section5/newFile.txt
+  451  git pull origin development
+  452  git push origin development
+  453  git checkout Section5
+  454  git merge development --no-ff
+  455  git mergetool
+  456  git mergetool
+  457  npp Section5/newFile.txt
+  458  git status
+  459  учше
+  460  exit
+  461  cd dkrautsova-git
+  462  git status
+  463  git commit 
+  464  git hist
+  465  git commit 
+  466  git branch -r
+  467  git push origin --delete origin/s5secret1
+  468  git push origin --delete s5secret1
+  469  git push origin --delete s5secret2
+  470  git push origin --delete test
+  471  exit
+  472  cd dkravtsova-git
+  473  cd dkrautsova-git
+  474  git checkout origin/Tasks Topic5/Task5.md
+  475  git mv Topic5/Task4.md Section5
+  476  git mv Topic5/Task5.md Section5
+  477  git status
+  478  cd Section5 
+  479  history >> history5.txt
+  480  git commit
+  481  git hist
+  482  git commit
+  483  cd ..
+  484  git pull origin Section5
+  485  git push origin Section5
+  486  exit
+  487  cd dkrautsova-git
+  488  git branch -a
+  489  git branch -d Section5secret
+  490  git fetch
+  491  exit
+  492  cd dkrautsova-git
+  493  git branch -a
+  494  git hist
+  495  git reset origin/Section5 --hard
+  496  git hist
+  497  git checkout development
+  498  git reset origin/development --hard
+  499  git hist
+  500  exit
+  501  cd dkrautsova-git
+  502  git pull
+  503  git checkout Section5
+  504  git merge development 
+  505  git hist
+  506  git reset HEAD~1
+  507  git hist
+  508  git merge development
+  509  git status
+  510  cd Section5
+  511  git status
+  512  cd ..
+  513  git checkout development
+  514  git hist
+  515  git status
+  516  git pull
+  517  git fetch
+  518  git pull
+  519  git hist
+  520  git reflog
+  521  git reset ORIG_HEAD
+  522  git reflog
+  523  git pull
+  524  git reset 0252e5c
+  525  git pull
+  526  git reflog
+  527  git hist
+  528  git fetch
+  529  git status
+  530  git checkout development 
+  531  git status
+  532  git pull
+  533  git status
+  534  git fetch
+  535  git checkout Section5
+  536  git status
+  537  git merge development
+  538  git checkout development 
+  539  npp Section5/newFile.txt
+  540  git status
+  541  git add Section5/newFile.txt
+  542  git commit
+  543  git checkout Section5
+  544  git checkout -b Section5secret
+  545  git status
+  546  git status
+  547  git merge origin/s5secret1
+  548  git merge origin/s5secret2
+  549  git mergetool
+  550  npp Section5/newFile.txt
+  551  git status
+  552  git add Section5/newFile.txt
+  553  git status
+  554  git commit
+  555  git status
+  556  npp Section5/newFile.txt
+  557  git checkout Section5
+  558  git merge Section5secret
+  559  git checkout development
+  560  npp Section5/Task5S.md
+  561  git status
+  562  git add Section5/Task5S.md
+  563  git commit
+  564  git hist
+  565  git hist
+  566  git pull origin development
+  567  git statu
+  568  git status
+  569  git push origin development
+  570  git checkout Section5
+  571  git merge development --no-ff
+  572  git mergetool
+  573  npp Section5/newFile.txt
+  574  git status
+  575  npp Section5/newFile.txt
+  576  git commit 
+  577  git hist
+  578  git push origin --delete s5secret1
+  579  git push origin --delete s5secret2
+  580  git checkout origin/Tasks Topic5/Task5.md
+  581  git mv Topic5/Task5.md Section5
+  582  git status
+  583  cd Section5 
+  584  history >> history5.txt
