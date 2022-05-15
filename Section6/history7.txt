@@ -1,0 +1,500 @@
+   13  q
+   14  git mergetool
+   15  git reset --soft HEAD^
+   16  git reset --hard HEAD
+   17  git hist
+   18  ls
+   19  cd Section5
+   20  ls
+   21  npp  Task5S.md.orig 
+   22  npp  Task5S.md 
+   23  q
+   24  npp newFile.txt
+   25  exit
+   26  cd dkravtsova-git
+   27  cd dkrautsova-git
+   28  git status
+   29  npp newFile.txt
+   30  npp Section5/newFile.txt
+   31  git hist
+   32  npp add Section5/newFile.txt
+   33  add Section5/newFile.txt
+   34  git add Section5/newFile.txt
+   35  git commit
+   36  git checkout Section5
+   37  git merge Section5secret
+   38  git hist
+   39  git checkout development
+   40  npp Section5/Task5S.md
+   41  git add Section5/Task5S.md
+   42  git commit
+   43  git status
+   44  git hist
+   45  npp Section5/newFile.txt
+   46  git pull origin development
+   47  git push origin development
+   48  git checkout Section5
+   49  git merge development --no-ff
+   50  git mergetool
+   51  git mergetool
+   52  npp Section5/newFile.txt
+   53  git status
+   54  учше
+   55  exit
+   56  cd dkrautsova-git
+   57  git status
+   58  git commit 
+   59  git hist
+   60  git commit 
+   61  git branch -r
+   62  git push origin --delete origin/s5secret1
+   63  git push origin --delete s5secret1
+   64  git push origin --delete s5secret2
+   65  git push origin --delete test
+   66  exit
+   67  cd dkravtsova-git
+   68  cd dkrautsova-git
+   69  git checkout origin/Tasks Topic5/Task5.md
+   70  git mv Topic5/Task4.md Section5
+   71  git mv Topic5/Task5.md Section5
+   72  git status
+   73  cd Section5 
+   74  history >> history5.txt
+   75  git commit
+   76  git hist
+   77  git commit
+   78  cd ..
+   79  git pull origin Section5
+   80  git push origin Section5
+   81  exit
+   82  cd dkrautsova-git
+   83  git branch -a
+   84  git branch -d Section5secret
+   85  git fetch
+   86  exit
+   87  cd dkrautsova-git
+   88  git branch -a
+   89  git hist
+   90  git reset origin/Section5 --hard
+   91  git hist
+   92  git checkout development
+   93  git reset origin/development --hard
+   94  git hist
+   95  exit
+   96  cd dkrautsova-git
+   97  git pull
+   98  git checkout Section5
+   99  git merge development 
+  100  git hist
+  101  git reset HEAD~1
+  102  git hist
+  103  git merge development
+  104  git status
+  105  cd Section5
+  106  git status
+  107  cd ..
+  108  git checkout development
+  109  git hist
+  110  git status
+  111  git pull
+  112  git fetch
+  113  git pull
+  114  git hist
+  115  git reflog
+  116  git reset ORIG_HEAD
+  117  git reflog
+  118  git pull
+  119  git reset 0252e5c
+  120  git pull
+  121  git reflog
+  122  git hist
+  123  git fetch
+  124  git status
+  125  git checkout development 
+  126  git status
+  127  git pull
+  128  git status
+  129  git fetch
+  130  git checkout Section5
+  131  git status
+  132  git merge development
+  133  git checkout development 
+  134  npp Section5/newFile.txt
+  135  git status
+  136  git add Section5/newFile.txt
+  137  git commit
+  138  git checkout Section5
+  139  git checkout -b Section5secret
+  140  git status
+  141  git status
+  142  git merge origin/s5secret1
+  143  git merge origin/s5secret2
+  144  git mergetool
+  145  npp Section5/newFile.txt
+  146  git status
+  147  git add Section5/newFile.txt
+  148  git status
+  149  git commit
+  150  git status
+  151  npp Section5/newFile.txt
+  152  git checkout Section5
+  153  git merge Section5secret
+  154  git checkout development
+  155  npp Section5/Task5S.md
+  156  git status
+  157  git add Section5/Task5S.md
+  158  git commit
+  159  git hist
+  160  git hist
+  161  git pull origin development
+  162  git statu
+  163  git status
+  164  git push origin development
+  165  git checkout Section5
+  166  git merge development --no-ff
+  167  git mergetool
+  168  npp Section5/newFile.txt
+  169  git status
+  170  npp Section5/newFile.txt
+  171  git commit 
+  172  git hist
+  173  git push origin --delete s5secret1
+  174  git push origin --delete s5secret2
+  175  git checkout origin/Tasks Topic5/Task5.md
+  176  git mv Topic5/Task5.md Section5
+  177  git status
+  178  cd Section5 
+  179  history >> history5.txt
+  180  git status
+  181  git add history5.txt
+  182  git add newFile.txt
+  183  git status
+  184  git commit
+  185  git status
+  186  git hist
+  187  cd ..
+  188  git pull origin Section5
+  189  git push origin Section5
+  190  exit
+  191  cd dkrautsova-git
+  192  cd ..
+  193  cd projects/starter-web
+  194  ls
+  195  git status
+  196  git checkout -b myfeature
+  197  npp humans.txt
+  198  git status
+  199  git commit -am "Saying thanks to all my students"
+  200  git checkout master
+  201  npp README.md
+  202  git status
+  203  git commit -am "Add oneliner to README for rebase example"
+  204  git hist
+  205  git checkout myfeature
+  206  git rebase master
+  207  git hist
+  208  npp README.md
+  209  git status
+  210  git commit -am "Add another change after rebase"
+  211  git hist
+  212  git checkout master
+  213  npp README.md
+  214  git diff master myfeature
+  215  git merge myfeature
+  216  git hist
+  217  git branch -d myfeature
+  218  git branch
+  219  git status
+  220  exit
+  221  git projects/starter-web
+  222  cd projects/starter-web
+  223  git status
+  224  npp simple.html
+  225  git status
+  226  git commit -am "mb before rebase conflicts"
+  227  git checkout -b bigtrouble
+  228  npp simple.html
+  229  git commit -am "fb add some trouble to simple.html"
+  230  git checkout master
+  231  npp simple.html
+  232  git commit -am "mb conflict changes brew"
+  233  git status
+  234  git hist
+  235  git branch
+  236  git checkout bigtrouble
+  237  git branch
+  238  git difftool master bigtrouble 
+  239  git rebase master
+  240  git rebase --abort
+  241  git status
+  242  git hist
+  243  git rebase master
+  244  git mergetool
+  245  git status
+  246  git add simple.html
+  247  git status
+  248  git rebase --continue
+  249  git hist
+  250  npp simple.html
+  251  git commit -am "Add changes after rebase conflict"
+  252  git status
+  253  git hist
+  254  git checkout master
+  255  git merge bigtrouble
+  256  git hist
+  257  exit
+  258  cd projects/starter-web
+  259  git pull origin master
+  260  git push origin master
+  261  git status
+  262  npp simple.html
+  263  git commit -am "local: update simple.html copyright notice"
+  264  git status
+  265  git status
+  266  git fetch origin master
+  267  git status
+  268  git pull --rebase origin master
+  269  git status
+  270  git hist
+  271  git branch
+  272  git branch -d bigtrouble
+  273  git branch
+  274  git pull origin master
+  275  git push origin master
+  276  exit
+  277  cd dkrautsova-git
+  278  git fetch
+  279  git branch -a
+  280  git checkout Section6
+  281  git checkout -b Section6r
+  282  git branch -a
+  283  git checkout development 
+  284  npp Section6/rebase_msample.txt
+  285  mkdir Section6
+  286  ls
+  287  npp Section6/rebase_msample.txt
+  288  git status
+  289  cd Section6
+  290  git status
+  291  ls
+  292  cd ..
+  293  npp Section6/rebase_msample.txt
+  294  add Section6/rebase_msample.txt
+  295  git add Section6/rebase_msample.txt
+  296  git status
+  297  git commit
+  298  git checkout Section6r
+  299  git merge development
+  300  git checkout development 
+  301  npp Section6/rebase_msample.txt
+  302  git status
+  303  git add Section6/rebase_msample.txt
+  304  git commit
+  305  git status
+  306  npp Section6/rebase_msample.txt
+  307  git status
+  308  git add Section6/rebase_msample.txt
+  309  git status
+  310  git commit
+  311  git checkout Section6r 
+  312  npp Section6/rebase_msample.txt
+  313  npp Section6/rebase_fsample.txt
+  314  cd Section6
+  315  ls
+  316  cd ..
+  317  npp Section6/rebase_fsample.txt
+  318  git status
+  319  git add Section6/rebase_fsample.txt
+  320  git status
+  321  git commit
+  322  npp Section6/rebase_fsample.txt
+  323  git status
+  324  git add Section6/rebase_fsample.txt
+  325  git commit
+  326  exit
+  327  cd dkrautsova-git
+  328  git hist
+  329  git hist
+  330  git rebase development
+  331  git rebase --abort
+  332  git checkout
+  333  git checkout development
+  334  git hist
+  335  git rebase Section6r
+  336  git hist
+  337  git checkout Section6r
+  338  git hist
+  339  exit
+  340  cd dkrautsova-git
+  341  npp Section6/rebase_msample.txt
+  342  git status
+  343  git add Section6/rebase_msample.txt
+  344  git commit
+  345  git checkout development
+  346  npp Section6/rebase_msample.txt
+  347  git add Section6/rebase_msample.txt
+  348  git commit
+  349  git rebase Section6r 
+  350  git rebase --abort
+  351  git status
+  352  git hist
+  353  git rebase Section6r
+  354  git mergetool
+  355  git status
+  356  git mergetool
+  357  git rebase --continue
+  358  git mergetool
+  359  git status
+  360  git rebase --continue
+  361  git status
+  362  git add Section6/rebase_msample.txt
+  363  git status
+  364  git rebase --continue
+  365  git status
+  366  git hist
+  367  git checkout Secetion6
+  368  git checkout Section6
+  369  git merge Section6r
+  370  git checkout origin/Tasks Topic6/Task6.md
+  371  git mv Topic6/Task6.md Section6
+  372  cd Section6
+  373  history >> history6.txt
+  374  git status
+  375  git add history6.txt
+  376  git status
+  377  git commit
+  378  git pull origin Section6
+  379  git push origin Section6
+  380  exit
+  381  git push origin -d Section6 
+  382  cd 
+  383  cd dkrautsova-git
+  384  git push origin -d Section6 
+  385  git checkout development
+  386  git branch -d Section6
+  387  git branch -D Section6
+  388  git branch
+  389  git branch -a
+  390  git hist
+  391  git branch -d Section6r
+  392  git hist
+  393  git fetch
+  394  git hist
+  395  git reset origin/development --hard
+  396  git hist
+  397  git checkout -b Section6
+  398  git checkout -b Section6r
+  399  git checkout development
+  400  mkdir Section6
+  401  npp Section6/rebase_msample.txt
+  402  npp Section6/rebase_msample.txt
+  403  git status
+  404  git status
+  405  git add .
+  406  git status
+  407  git commit 
+  408  git checkout Section6r
+  409  git merge development
+  410  git checkout development
+  411  npp Section6/rebase_msample.txt
+  412  git status
+  413  git add .
+  414  git commit -m "DEV Rebase 2"
+  415  npp Section6/rebase_msample.txt
+  416  git status
+  417  git add .
+  418  git status
+  419  git commit -m "DEV Rebase 3"
+  420  git checkout Section6r
+  421  npp Section6/rebase_fsample.txt
+  422  git hist
+  423  git status
+  424  npp Section6/rebase_fsample.txt
+  425  git status
+  426  git add Section6/rebase_fsample.txt
+  427  git status
+  428  git commit -m "Feature Rebase 2"
+  429  npp Section6/rebase_fsample.txt
+  430  git add Section6/rebase_fsample.txt
+  431  git status
+  432  git commit -m "Feature Rebase 3"
+  433  git rebase development
+  434  npp Section6/rebase_msample.txt
+  435  git status
+  436  git add .
+  437  git status
+  438  git commit -m "Feature Rebase 4 conflicts"
+  439  git checkout development
+  440  npp Section6/rebase_msample.txt
+  441  git status
+  442  git add .
+  443  git commit -m "DEV Rebase 4 conflicts"
+  444  git checkout Section6r
+  445  git rebase development
+  446  git rebase --abort
+  447  git rebase development
+  448  git mergetool
+  449  git status
+  450  git rebase --continue
+  451  git hist
+  452  git checkout Section6
+  453  git merge Section6r
+  454  git checkout origin/Tasks Topic6/Task6.md
+  455  git mv Topic6/Task6.md Section6
+  456  cd Section6
+  457  history >> history6.txt
+  458  git status
+  459  git status
+  460  git add .
+  461  git commit -m "Git Education - Topic6 - Task6 - Task#6 Details"
+  462  git hist
+  463  git status
+  464  git pull origin Section6
+  465  git push origin Section6
+  466  exit
+  467  cd dkrautsova-git
+  468  git checkout development
+  469  git fetch
+  470  git hist
+  471  npp Section6/rebase_msample.txt
+  472  git status
+  473  git add .
+  474  git commit -m "DEV of Golden Rule"
+  475  git pull origin development
+  476  git hist
+  477  git commit 
+  478  git hist
+  479  git reset --hard
+  480  git hist
+  481  git reset --hard c4bc959
+  482  git hist
+  483  git fetch
+  484  git status
+  485  git pull origin development
+  486  npp Section6/rebase_msample.txt
+  487  git add .
+  488  git status
+  489  git commit -m "DEV of Golden Rule"
+  490  git pull origin development
+  491  git push origin development
+  492  git checkout Section6
+  493  npp Section6/rebase_msample.txt
+  494  git status
+  495  git add .
+  496  git commit -m "Feature of Golden Rule"
+  497  git pull origin Section6
+  498  git push origin Section6
+  499  git hist
+  500  exit
+  501  cd dkrautsova-git
+  502  git rebase development
+  503  git push origin Section6
+  504  git hist
+  505  git reflog
+  506  git reset HEAD@{2} --hard
+  507  git hist
+  508  git checkout origin/Tasks Topic6/Task7.md
+  509* 
+  510* 
+  511  cd Section6
+  512  history >> history7.txt
