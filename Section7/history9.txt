@@ -1,0 +1,500 @@
+   47  git mv Topic6/Task6.md Section6
+   48  cd Section6
+   49  history >> history6.txt
+   50  git status
+   51  git add history6.txt
+   52  git status
+   53  git commit
+   54  git pull origin Section6
+   55  git push origin Section6
+   56  exit
+   57  git push origin -d Section6 
+   58  cd 
+   59  cd dkrautsova-git
+   60  git push origin -d Section6 
+   61  git checkout development
+   62  git branch -d Section6
+   63  git branch -D Section6
+   64  git branch
+   65  git branch -a
+   66  git hist
+   67  git branch -d Section6r
+   68  git hist
+   69  git fetch
+   70  git hist
+   71  git reset origin/development --hard
+   72  git hist
+   73  git checkout -b Section6
+   74  git checkout -b Section6r
+   75  git checkout development
+   76  mkdir Section6
+   77  npp Section6/rebase_msample.txt
+   78  npp Section6/rebase_msample.txt
+   79  git status
+   80  git status
+   81  git add .
+   82  git status
+   83  git commit 
+   84  git checkout Section6r
+   85  git merge development
+   86  git checkout development
+   87  npp Section6/rebase_msample.txt
+   88  git status
+   89  git add .
+   90  git commit -m "DEV Rebase 2"
+   91  npp Section6/rebase_msample.txt
+   92  git status
+   93  git add .
+   94  git status
+   95  git commit -m "DEV Rebase 3"
+   96  git checkout Section6r
+   97  npp Section6/rebase_fsample.txt
+   98  git hist
+   99  git status
+  100  npp Section6/rebase_fsample.txt
+  101  git status
+  102  git add Section6/rebase_fsample.txt
+  103  git status
+  104  git commit -m "Feature Rebase 2"
+  105  npp Section6/rebase_fsample.txt
+  106  git add Section6/rebase_fsample.txt
+  107  git status
+  108  git commit -m "Feature Rebase 3"
+  109  git rebase development
+  110  npp Section6/rebase_msample.txt
+  111  git status
+  112  git add .
+  113  git status
+  114  git commit -m "Feature Rebase 4 conflicts"
+  115  git checkout development
+  116  npp Section6/rebase_msample.txt
+  117  git status
+  118  git add .
+  119  git commit -m "DEV Rebase 4 conflicts"
+  120  git checkout Section6r
+  121  git rebase development
+  122  git rebase --abort
+  123  git rebase development
+  124  git mergetool
+  125  git status
+  126  git rebase --continue
+  127  git hist
+  128  git checkout Section6
+  129  git merge Section6r
+  130  git checkout origin/Tasks Topic6/Task6.md
+  131  git mv Topic6/Task6.md Section6
+  132  cd Section6
+  133  history >> history6.txt
+  134  git status
+  135  git status
+  136  git add .
+  137  git commit -m "Git Education - Topic6 - Task6 - Task#6 Details"
+  138  git hist
+  139  git status
+  140  git pull origin Section6
+  141  git push origin Section6
+  142  exit
+  143  cd dkrautsova-git
+  144  git checkout development
+  145  git hist
+  146  git fetch
+  147  git status
+  148  git pull origin development
+  149  npp Section6/rebase_msample.txt
+  150  git add .
+  151  git status
+  152  git commit -m "DEV of Golden Rule"
+  153  git pull origin development
+  154  git push origin development
+  155  git checkout Section6
+  156  npp Section6/rebase_msample.txt
+  157  git status
+  158  git add .
+  159  git commit -m "Feature of Golden Rule"
+  160  git pull origin Section6
+  161  git push origin Section6
+  162  git hist
+  163  exit
+  164  cd dkrautsova-git
+  165  git rebase development
+  166  git push origin Section6
+  167  git hist
+  168  git reflog
+  169  git reset HEAD@{2} --hard
+  170  git hist
+  171  git checkout origin/Tasks Topic6/Task7.md
+  172  cd Section6
+  173  history >> history7.txt
+  174  git status
+  175  git add .
+  176  git status
+  177  git commit -m "Git Education - Topic6 - Task7 - Task#7 Details"
+  178  git push origin Section6
+  179  exit
+  180  cd dkrautsova-git
+  181  git pull
+  182  git pull origin Section6
+  183  npp Section6/iRebase.txt
+  184  git status
+  185  git add .
+  186  git commit -m "Interactive Rebase commit 1"
+  187  npp Section6/iRebase.txt
+  188  git status
+  189  git add .
+  190  git commit -m "Interactive Rebase commit 2"
+  191  npp Section6/iRebase.txt
+  192  git status
+  193  git add .
+  194  git commit -m "Interactive Rebase commit 3"
+  195  npp Section6/iTestFile.txt
+  196  git status
+  197  git add .
+  198  git commit -m "Interactive Rebase commit 4"
+  199  exit
+  200  cd dkrautsova-git
+  201  git rebase -i HEAD~2
+  202  git hist
+  203  git rebase -i HEAD~4
+  204  git hist
+  205  git rebase -i HEAD~1
+  206  git status
+  207  git reset HEAD^
+  208  git status
+  209  git add Section6/iRebase.txt
+  210  git commit -m "Rebase iRebase.txt"
+  211  git status
+  212  git add Section6/iTestFile.txt
+  213  git commit -m "Rebase iTestFile.txt"
+  214  git rebase --continue
+  215  git hist
+  216  git rebase -i HEAD~2
+  217  git checkout origin/Tasks Topic6/Task8.md
+  218  git mv Topic6/Task8.md Section6
+  219  git status
+  220  cd Section6
+  221   history >> history8.txt 
+  222  git status
+  223  git add .
+  224  git -m "Git Education - Topic6 - Task8 - Task#8 Details"
+  225  git commit -m "Git Education - Topic6 - Task8 - Task#8 Details"
+  226  git status
+  227  git push origin Section6
+  228  git reflog
+  229  git reset HEAD^
+  230  git push origin Secnion6 --force
+  231  git push origin Section6 --force
+  232  git reflog
+  233  git reset HEAD^
+  234  git push origin Section6 --force
+  235  git fetch
+  236  git hist
+  237  git reflog
+  238  git reset HEAD@{2}
+  239  git hist
+  240  git push origin Section6
+  241  exit
+  242  exit
+  243  cd projects\starter-web
+  244  cd projects
+  245  cd projects\starter-web
+  246  cd projects/starter-web
+  247  cd starter-web
+  248  git status
+  249  ls
+  250  npp simple.html
+  251  git status
+  252  git stash
+  253  git status
+  254  npp simple.html
+  255  npp README.md
+  256  git status
+  257  git commit -am "Quick fix in production to improve copyright notice"
+  258  git status
+  259  git stash apply
+  260  npp simple.html
+  261  npp simple.html
+  262  git commit -am "Done with simple.html updates"
+  263  git status
+  264  git shash list
+  265  git stash list
+  266  git stash drop
+  267  exit
+  268  cd starter-web
+  269  cd projects/starter-web
+  270  git status
+  271  git ls-files
+  272  npp humans.html
+  273  npp humans.txt
+  274  git status
+  275  npp ANewFile.txt
+  276  git status
+  277  git stash
+  278  git status
+  279  git stash apply
+  280  git stash drop
+  281  git stash list
+  282  git status
+  283  git stash -u
+  284  gis status
+  285  git status
+  286  git stash list
+  287  npp README.md
+  288  git commit -a
+  289  git status
+  290  git stash pop
+  291  git status
+  292  rm ANewFile.txt
+  293  git status
+  294  git status
+  295  git commit -am "Updates to humans file after stash pop"
+  296  git status
+  297  ls
+  298  npp simple.html
+  299  git stash save "simple changes"
+  300  npp index.html
+  301  npp index.html
+  302  git stash save "index changes"
+  303  npp README.md
+  304  git stash save "Readme changes"
+  305  git stash list
+  306  git stash show stash@{1}
+  307  git status
+  308  git stash list
+  309  gis stash apply stash@{1}
+  310  git stash apply stash@{1}
+  311  git status
+  312  git stash list
+  313  git stash drop stash@{1}
+  314  git stash list
+  315  git stash list
+  316  git stash clear
+  317  git stash list
+  318  git status
+  319  git stash list
+  320  npp simple.html
+  321  npp humans.txt
+  322  git status
+  323  git add index.html
+  324  git status
+  325  npp new.md
+  326  git status
+  327  git stash -u
+  328  git status
+  329  git stash branch newchanges
+  330  git stash list
+  331  git status
+  332  rm new.md
+  333  git add .
+  334  git status
+  335  git commit
+  336  git checkout master
+  337  git merge newchanges
+  338  git branch -d newchanges
+  339  git branch
+  340  git status
+  341  git pull origin master
+  342  git push origin master
+  343  cd ../..
+  344  cd  dkrautsova-git
+  345  git checkout development
+  346  git fetch
+  347  git hist
+  348  git checkout -b Section7
+  349  exit
+  350  cd  dkrautsova-git
+  351  npp Section7/stashIt.md
+  352  ls
+  353  mkdir Section7
+  354  ls
+  355  npp Section7/stashIt.md
+  356  git status
+  357  cd Section7
+  358  ls
+  359  git status
+  360  git ls-files
+  361  help git stash
+  362  info stash
+  363  git stash save -u "Stashed!"
+  364  git stash list
+  365  cd ..
+  366  git stash list
+  367  git status
+  368  git stash show stash@{0}
+  369  git stash list
+  370  git stash show 
+  371  git stash list
+  372  git stash show -u
+  373  git stash show stash@{0} -u
+  374  npp Section7/stashIt2.md
+  375  mkdir Section7
+  376  npp Section7/stashIt2.md
+  377  npp Section7/stashIt3.md
+  378  git status
+  379  git add .
+  380  git status
+  381  git restore --staged .
+  382  git status
+  383  git stash -u
+  384  git stash list
+  385  git stash show stash@{0} -u
+  386  exit
+  387  cd  dkrautsova-git
+  388  ,
+  389  +
+  390  exit
+  391  cd  dkrautsova-git
+  392  git stash show -u
+  393  git stash list
+  394  git stash pop
+  395  git stash list
+  396  git status
+  397  git add Section7/stashIt2.md
+  398  git status
+  399  git commit -am "add Section7/stashIt2.md file"
+  400  git status
+  401  git stash list
+  402  git log
+  403  git reflog
+  404  git status
+  405  git reset hard HEAD@{1}
+  406  git reset --hard HEAD@{1}
+  407  git reflog
+  408  git status
+  409  cd Section7
+  410  ls
+  411  git status
+  412  git stash list
+  413  git hist
+  414  npp stashIt2.md
+  415  git status
+  416  ls
+  417  git stash -u
+  418  git status
+  419  cd ..
+  420  git status
+  421  git stash list
+  422  git stash show stash@{0} -- Section7/stashIt2.md
+  423  git stash show stash@{0} -u -- Section7/stashIt2.md
+  424  git show stash@{0} -u -- Section7/stashIt2.md
+  425  git show stash@{0} -- Section7/stashIt2.md
+  426  git show stash@{0}:Section7/stashIt2.md
+  427  git show -u stash@{0}:Section7/stashIt2.md
+  428  ls
+  429  mkdir Section7
+  430  ls
+  431  git show -u stash@{0}:Section7/stashIt2.md
+  432  git show -u stash@{0}
+  433  git stash show -u stash@{0}
+  434  git stash show -u stash@{0}:Section7/stashIt2.md
+  435  git stash show -u stash@{0}: -- Section7/stashIt2.md
+  436  git show -u stash@{0}:Section7stashIt2.md
+  437  git stash show -u stash@{0}:stashIt2.md
+  438  git checkout stash@{0} -- Section7/stashIt2.md
+  439  git stash show -u stash@{0}
+  440  git checkout stash@{0} -u -- Section7/stashIt2.md
+  441  git stash show -u stash@{0}
+  442  git show stash@{0} -u:Section7/stashIt2.md > Section7/stashIt2.md
+  443  git show stash@{0}:Section7/stashIt2.md > Section7/stashIt2.md
+  444  git show -u stash@{0}:Section7/stashIt2.md > Section7/stashIt2.md
+  445  git stash apply stash@{0} -- Section7/stashIt2.md
+  446  git apply stash@{0} -- Section7/stashIt2.md
+  447  git stash -u apply stash@{0} -- Section7/stashIt2.md
+  448  git stash apply -u stash@{0} -- Section7/stashIt2.md
+  449  git stash -u apply stash@{0} -- Section7/stashIt2.md
+  450  exit
+  451  cd dkrautsova-git
+  452  git stash list
+  453  git stash show stash@{0}
+  454  git stash show -u stash@{0}
+  455  git checkout stash@{0} Section7/stashIt2.md
+  456  git checkout stash@{0} Section7/stashIt2.md
+  457  git checkout stash@{0} -- Section7/stashIt2.md
+  458  git checkout stash@{0}^3 -- Section7/stashIt2.md
+  459  git status
+  460  git hist
+  461  git reflog
+  462  git status
+  463  git rm Section7/stashIt2.md
+  464  git restore --staged Section7/stashIt2.md
+  465  git rm Section7/stashIt2.md
+  466  git restore Section7/stashIt2.md
+  467  git rm Section7/stashIt2.md
+  468  git status
+  469  git status
+  470  git checkout stash@{0}^2 -- Section7/stashIt2.md
+  471  git stash show -u stash@{0}
+  472  git checkout stash@{0}^3 -- Section7/stashIt2.md
+  473  git status
+  474  git stash show -u stash@{0}
+  475  git status
+  476  git commit -m "Add new file:   Section7/stashIt2.md"
+  477  git commit amend
+  478  git commit --amend
+  479  git stash drop
+  480  git stash list
+  481  git stash branch featureStash
+  482  git add .
+  483  git status
+  484  git commit -m "Add new Section7/stashIt.md file"
+  485  git stash list
+  486  git checkout Section7
+  487  git merge featureStash 
+  488* 
+  489  git mv Topic7/Task9.md Section7
+  490  git status
+  491  cd Section7
+  492  history >> history9.txt
+  493  git status
+  494  git add .
+  495  git commit -m "Git Education - Topic7 - Task9 - Task#9 Details"
+  496  git fetch
+  497  git push origin Section7
+  498  exit
+  499  cd dkrautsova-git
+  500  git push origin -d Section7
+  501  git checkout development
+  502  git branch -d Section7
+  503  git branch -D Section7
+  504  git branch -a
+  505  git hist
+  506  git branch -a
+  507  git branch -d featureStash 
+  508  git branch -D featureStash 
+  509  git hist
+  510  git pull
+  511  git hist
+  512  git checkout -b Section7
+  513  mkdir Section7
+  514  npp Section7/stashIt.md
+  515  git status
+  516  git stash save -u "Stashed!"
+  517  git stash list
+  518  git status
+  519  git stash show stash@{0} -u
+  520  npp Section7/stashIt2.md
+  521  mkdir Section7
+  522  npp Section7/stashIt2.md
+  523  npp Section7/stashIt3.md
+  524  git status
+  525  git stash -u 
+  526  git stash list
+  527  git status
+  528  git stash show -u stash@{0}
+  529  git checkout stash@{0}^3 -- Section7/stashIt2.md
+  530  git status
+  531  git stash show -u stash@{0}
+  532  git stash list
+  533  git commit -m "Add new Section7/stashIt2.md file"
+  534  git stash drop
+  535  git stash list
+  536  git stash branch featureStash
+  537  git add .
+  538  git commit -m "Add new Section7/stashIt.md file"
+  539  git stash list
+  540  git checkout Section7
+  541  git merge featureStash
+  542  git checkout origin/Tasks Topic7/Task9.md
+  543  git mv Topic7/Task9.md Section7
+  544  git status
+  545  cd Section7
+  546  history >> history9.txt
