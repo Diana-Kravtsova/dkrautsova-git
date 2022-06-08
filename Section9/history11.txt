@@ -1,0 +1,500 @@
+   43  npp README.md
+   44  git commit -a
+   45  git status
+   46  git stash pop
+   47  git status
+   48  rm ANewFile.txt
+   49  git status
+   50  git status
+   51  git commit -am "Updates to humans file after stash pop"
+   52  git status
+   53  ls
+   54  npp simple.html
+   55  git stash save "simple changes"
+   56  npp index.html
+   57  npp index.html
+   58  git stash save "index changes"
+   59  npp README.md
+   60  git stash save "Readme changes"
+   61  git stash list
+   62  git stash show stash@{1}
+   63  git status
+   64  git stash list
+   65  gis stash apply stash@{1}
+   66  git stash apply stash@{1}
+   67  git status
+   68  git stash list
+   69  git stash drop stash@{1}
+   70  git stash list
+   71  git stash list
+   72  git stash clear
+   73  git stash list
+   74  git status
+   75  git stash list
+   76  npp simple.html
+   77  npp humans.txt
+   78  git status
+   79  git add index.html
+   80  git status
+   81  npp new.md
+   82  git status
+   83  git stash -u
+   84  git status
+   85  git stash branch newchanges
+   86  git stash list
+   87  git status
+   88  rm new.md
+   89  git add .
+   90  git status
+   91  git commit
+   92  git checkout master
+   93  git merge newchanges
+   94  git branch -d newchanges
+   95  git branch
+   96  git status
+   97  git pull origin master
+   98  git push origin master
+   99  cd ../..
+  100  cd  dkrautsova-git
+  101  git checkout development
+  102  git fetch
+  103  git hist
+  104  git checkout -b Section7
+  105  mkdir Section7
+  106  ls
+  107  npp Section7/stashIt.md
+  108  git status
+  109  cd Section7
+  110  ls
+  111  git status
+  112  git stash save -u "Stashed!"
+  113  git stash list
+  114  cd ..
+  115  git stash list
+  116  git status
+  117  git stash show stash@{0} -u
+  118  mkdir Section7
+  119  npp Section7/stashIt2.md
+  120  npp Section7/stashIt3.md
+  121  git status
+  122  git stash -u
+  123  git stash 
+  124  git stash show -u
+  125  git stash list
+  126  git status
+  127  git hist
+  128  git status
+  129  git stash show -u stash@{0}
+  130  git stash show stash@{0}
+  131  git checkout stash@{0}^3 -- Section7/stashIt2.md
+  132  git status
+  133  git stash show -u stash@{0}
+  134  git status
+  135  git commit -m "Add new Section7/stashIt2.md file"
+  136  git stash drop
+  137  git stash list
+  138  git stash branch featureStash
+  139  git add .
+  140  git status
+  141  git commit -m "Add new Section7/stashIt.md file"
+  142  git stash list
+  143  git checkout Section7
+  144  git merge featureStash 
+  145  git checkout origin/Tasks Topic7/Task9.md
+  146  git mv Topic7/Task9.md Section7
+  147  git status
+  148  cd Section7
+  149  history >> history9.txt
+  150  git status
+  151  git add .
+  152  git commit -m "Git Education - Topic7 - Task9 - Task#9 Details"
+  153  git fetch
+  154  git push origin Section7
+  155  exit
+  156  cd dkrautsova-git
+  157  git push origin -d Section7
+  158  git checkout development
+  159  git branch -d Section7
+  160  git branch -D Section7
+  161  git branch -a
+  162  git hist
+  163  git branch -a
+  164  git branch -d featureStash 
+  165  git branch -D featureStash 
+  166  git hist
+  167  git pull
+  168  git hist
+  169  git checkout -b Section7
+  170  mkdir Section7
+  171  npp Section7/stashIt.md
+  172  git status
+  173  git stash save -u "Stashed!"
+  174  git stash list
+  175  git status
+  176  git stash show stash@{0} -u
+  177  npp Section7/stashIt2.md
+  178  mkdir Section7
+  179  npp Section7/stashIt2.md
+  180  npp Section7/stashIt3.md
+  181  git status
+  182  git stash -u 
+  183  git stash list
+  184  git status
+  185  git stash show -u stash@{0}
+  186  git checkout stash@{0}^3 -- Section7/stashIt2.md
+  187  git status
+  188  git stash show -u stash@{0}
+  189  git stash list
+  190  git commit -m "Add new Section7/stashIt2.md file"
+  191  git stash drop
+  192  git stash list
+  193  git stash branch featureStash
+  194  git add .
+  195  git commit -m "Add new Section7/stashIt.md file"
+  196  git stash list
+  197  git checkout Section7
+  198  git merge featureStash
+  199  git checkout origin/Tasks Topic7/Task9.md
+  200  git mv Topic7/Task9.md Section7
+  201  git status
+  202  cd Section7
+  203  history >> history9.txt
+  204  git add .
+  205  git status
+  206  git commit -m "Git Education - Topic7 - Task9 - Task#9 Details"
+  207  git hist
+  208  git push origin Section7
+  209  git checkout development
+  210  git hist
+  211  cd ..
+  212  git hist
+  213  git diff development origin/development
+  214  git difftool development origin/development
+  215  exit
+  216  cd projects/starter-web
+  217  git status
+  218  hit hist
+  219  git hist
+  220  hit tag myTag
+  221  git tag myTag
+  222  git hist
+  223  git tag --list
+  224  git show myTag
+  225  git tag --delete myTag
+  226  git tag --list
+  227  git hist
+  228  git tag -a v-1.0
+  229  git tag --list
+  230  git hist
+  231  git show v-1.0
+  232  git tag --list
+  233  npp index.html
+  234  git commit
+  235  git commit -a "Tweak file for tagging example"
+  236  git commit -a 
+  237  git hist
+  238  git tag -a v-1.1
+  239  npp simple.html
+  240  git commit -am "Update for tag 1.1"
+  241  git commit --amend
+  242  git tag v-1.2 -m "Release 1.2"
+  243  git tag --list
+  244  git hist
+  245  git diff v-1.1 v-1.2
+  246  git difftool v-1.0 v-1.2
+  247  git status
+  248  git hist
+  249  git tag -a v-0.9-beta ecffeab
+  250  git hist
+  251  git tag -a v-0.8-alpha 837fc99
+  252  git hist
+  253  git tag -a v-0.8-alpha -f 00add77
+  254  git hist
+  255  git status
+  256  git tag --list
+  257  git hist
+  258  git push origin v-0.9-beta
+  259  git push origin v-1.1
+  260  git push origin master --tags
+  261  git tag --list
+  262  git push origin :v-0.8-alpha
+  263  exit
+  264  cd dkrautsova-git
+  265  git pull
+  266  git hist
+  267  git checkout -b Section8
+  268  git hist
+  269  git hist
+  270  exit
+  271  cd dkrautsova-git
+  272  git hist
+  273  git tag Task#1 ef49467
+  274  git hist
+  275  git tag Task#2 68d2702
+  276  git hist
+  277  git tag Task#3 dfcc44a
+  278  git hist
+  279  git tag --list 
+  280   git tag -a Task#4 0252e5c
+  281  git show Task#4
+  282   git tag -a Task#4 0252e5c
+  283  git tag -d Task#4
+  284  git tag --list 
+  285  git tag -a Task#4 0252e5c
+  286  git tag --list 
+  287  git show Task#4
+  288  git hist
+  289  git tag -a Task#5 bdb23e9
+  290  git tag -a Task#6 ed840cdb
+  291  git tag -a Task#7 426b2782
+  292  git tag -a Task#8 34a12f2c
+  293  git tag -a Task#9 8abe63df
+  294  git hist
+  295  git tag --list
+  296  git tag Task#1
+  297  git tag -a -f Task#1
+  298  git hist
+  299  git tag -a -f ef494678
+  300  git tag -f ef494678
+  301  git hist
+  302  git tag Task#1 -f ef494678
+  303  git hist
+  304  git tag -a -f Task#1 ef494678
+  305  git tag -d Task#1 ef494678
+  306  git hist
+  307  git reflog
+  308  git tag -d Task#1
+  309  git tag -d ef494678
+  310  git tag --list
+  311  git tag Task#1 ef49467
+  312  git tag --list
+  313  git tag -a -m "Topic 3 Task 1 Playing with Basics." Task#1
+  314  git tag -a Task#1 -f ef49467
+  315  git tag --list
+  316  git hist
+  317  git show Task#4
+  318  git show Task#1
+  319  git tag -a Task#2 -f 68d2702a
+  320  git show Task#2
+  321  git tag -a Task#3 -f dfcc44af
+  322  git show Task#3
+  323  git hist
+  324  git status
+  325  ls
+  326  mkdir Section8
+  327  ls
+  328  git mv Topic8/Task10.md Section8
+  329  git checkout origin/Tasks Topic8/Task10.md
+  330* git mv Topic9/Task11.md Section9
+  331  cd Section8
+  332  history >> history10.txt
+  333  git status
+  334  git add .
+  335  git status
+  336  git commit -m "Git Education - Topic8 - Task10 - Task#10 Details"
+  337  git status
+  338  git push origin Section8
+  339  git push origin Section8 --tags
+  340  exit
+  341  cd projects/starter-web
+  342  git log --oneline
+  343  git log --oneline --ghraph --decorate --all
+  344  git log --oneline --graph --decorate --all
+  345  git reset HEAD^1
+  346  git log --oneline --graph --decorate --all
+  347  git reset HEAD^1
+  348  git log --oneline --graph --decorate --all
+  349  git reflog
+  350  git reset 6c79b39
+  351  git log --oneline --graph --decorate --all
+  352  git reset HEAD@{2}
+  353  git log --oneline --graph --decorate --all
+  354  git reset 6c79b39
+  355  git log --oneline --graph --decorate --all
+  356  git reset HEAD^^
+  357  git log --oneline --graph --decorate --all
+  358  git reset 6c79b39
+  359  git log --oneline --graph --decorate --all
+  360  git reset HEAD@{3}
+  361  git log --oneline --graph --decorate --all
+  362  git reflog
+  363  git reset 6c79b39
+  364  git log --oneline --graph --decorate --all
+  365  exit
+  366  cd projects/starter-web
+  367  git branch -a
+  368  git pull origin master
+  369  git branch -a
+  370  git fetch origin master
+  371  git branch -a
+  372  git pull
+  373  git branch -a
+  374  git fetch origin test
+  375  git branch -a
+  376  git branch test origin/test
+  377  git branch -a
+  378  git checkout test
+  379  git pull
+  380  git diff master test
+  381  git checkout master
+  382  git branch -a
+  383  git branch -d test
+  384  git branch -a
+  385  git status
+  386  npp
+  387  ls
+  388  npp README.md
+  389  git status
+  390  git ls-files
+  391  git stash
+  392  git checkout -b test
+  393  git stash pop
+  394  git stash list
+  395  git checkout master
+  396  ls
+  397  npp crossdomain.xml
+  398  index.html
+  399  npp index.html
+  400  npp simple.html
+  401  git status
+  402  git stash
+  403  git status
+  404  ls
+  405  npp humans.txt
+  406  git status
+  407  git stash
+  408  git stash list
+  409  git stash apply stash@{1}
+  410  git stash list
+  411  git stash clear
+  412  git stash list
+  413  git status
+  414  exit
+  415  cd projects/starter-web
+  416  git status
+  417  git commit -am "express updates of README and simple"
+  418  git checkout dev
+  419  git status
+  420  ls
+  421  npp simple.html
+  422  git status
+  423  git commit -am "cherry pick commit"
+  424  ls
+  425  cd js
+  426  ls
+  427  npp main.js
+  428  npp plugins.js
+  429  git commit -am "non-cherry picked commit"
+  430  git log --oneline
+  431  git checkout master
+  432  cd ..
+  433  npp simple.html
+  434  git status
+  435  git hist
+  436  npp simple.html
+  437  npp simple.html
+  438  git commit -am "Updates away from dev"
+  439  git hist
+  440  git cherry-pick 54346ab
+  441  git status
+  442  git diff-tree --no-commit-id --name-only -r 54346ab
+  443  git diff-tree --no-commit-id --name-only -r 2dc5b15
+  444  git add simple.html
+  445  git status
+  446  git cherry-pick --continue
+  447  git status
+  448  npp simple.html
+  449  git reset --hard HEAD^
+  450  git status
+  451  git hist
+  452  git cherry-pick 54346ab
+  453  git status
+  454  git diftool 
+  455  git difftool 
+  456  git mergetool
+  457  git status
+  458  npp simple.html
+  459  git cherry-pick --continue
+  460  npp simple.html
+  461  git status
+  462  git pull origin master
+  463  git push origin master
+  464  exit
+  465  cd projects/starter-web
+  466  cd ../..
+  467  cd dkrautsova-git
+  468  clear
+  469  git checkout development
+  470  git pull
+  471  git checkout -b "Section9"
+  472  mkdir Seciton9
+  473  cd Seciton9
+  474  cd ..
+  475  npp Section9/alpha.txt
+  476  cd Sectiton9
+  477  mkdir Section9
+  478  npp Section9/alpha.txt
+  479  git status
+  480  git add .
+  481  git commit -m "add Section9/alpha.txt"
+  482  git checkout -b "s9feature"
+  483  npp Section9/alpha.txt
+  484  git commit -am "update Section9/alpha.txt to Non-Alpha"
+  485  git hist
+  486  npp Section9/beta.txt
+  487  git status
+  488  git commit -am "add Section9/beta.txt"
+  489  git add .
+  490  git status
+  491  git commit -m "add Section9/beta.txt"
+  492  git status
+  493  npp Section9/gamma.txt
+  494  git add .
+  495  git commit -m "add Section9/gamma.txt"
+  496  git status
+  497  cd Section9/
+  498  ld
+  499  ls
+  500  exit
+  501  cd dkrautsova-git
+  502  git hist
+  503  git checkout b2411e9
+  504  git hist
+  505  git checkout s9feature
+  506  git hist
+  507  git reset --hard 292a8b3
+  508  git revert 292a8b3
+  509  git hist
+  510  git reset 76c4498
+  511  git stash -u
+  512  git status
+  513  git stash list
+  514  git checkout Section9
+  515  git reflog
+  516  git reflog stash
+  517  git reflog stash --grep-reflog=s9feature
+  518  npp Section9/alpha.txt
+  519  git status
+  520  git commit -am "update Section9/alpha.txt"
+  521  git checkout s9feature
+  522  git stash list
+  523  git stash apply 
+  524  git commit -am "update again Section9/alpha.txt"
+  525  git checkout Section9
+  526  git hist
+  527  git cherry-pick 3cf08fb
+  528  git mergetool
+  529  git status
+  530  git commit -m "cherry-pick Section9/alpha.txt"
+  531  git status
+  532  npp Section9/alpha.txt
+  533  npp Section9/Anwswer.md
+  534  cd Section9/
+  535  git mv Anwswer.md answer.md
+  536  git status
+  537  git status
+  538  cd ..
+  539  git checkout origin/Tasks Topic9/Task11.md
+  540  git mv Topic9/Task11.md Section9
+  541  cd Section9
+  542  history >> history11.txt 
